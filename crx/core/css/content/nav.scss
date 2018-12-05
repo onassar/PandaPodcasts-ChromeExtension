@@ -3,7 +3,6 @@
     width: 56px;
     background-color: #2C2C2C;
     height: inherit;
-    // overflow: hidden;
 
     > div {
         position: relative;
@@ -25,7 +24,6 @@
             width: 28px;
             border-radius: 100px;
             background-size: 100%;
-            // margin: 10px auto 10px auto;
         }
 
         > div.badge {
@@ -45,10 +43,7 @@
         }
 
         > div.chevron {
-            // position: relative;
             background: #2C2C2C;
-            // left: -7px;
-            // top: 6px;
             display: none;
             position: absolute;
             right: 3px;

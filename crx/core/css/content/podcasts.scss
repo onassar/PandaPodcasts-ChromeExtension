@@ -2,6 +2,7 @@
     float: left;
     width: 384px;
     background-color: red;
+    height: 100%;
 
     > div.podcast {
         padding: 12px 12px 12px 16px;
@@ -37,7 +38,6 @@
         > div.episodes {
             @import 'episode';
             overflow: auto;
-            // max-height: calc($contentHeight - 12px - 12px);
             max-height: 100%;
 
             &::-webkit-scrollbar {
@@ -56,8 +56,8 @@
                 margin: 12px 0 0 0;
 
                 > a {
-                    background-color: #555555;
-                    color: #E3E2DE;
+                    background-color: red;
+                    color: white;
                     display: block;
                     transition: all 75ms;
                     font-size: 20px;
@@ -66,22 +66,18 @@
                     margin: 0 auto 0 auto;
                     text-decoration: none;
                     text-align: center;
-
-                    background-color: #ebebeb;
                     border-radius: 3px;
                     height: 30px;
                     line-height: 30px;
                     min-width: 130px;
-                    font-size: 12px;
-                    border: 1px solid #cccccc;
-                    color: #333333;
+                    font-size: 11px;
+                    border: 1px solid green;
                     text-transform: uppercase;
                     font-weight: 900;
 
                     &:hover {
-                        // color: #1a1a1a;
-                        background-color: #E2E2E2;
-                        color: rgba(#333333, 0.7);
+                        background-color: blue;
+                        color: black;
                     }
                 }
             }

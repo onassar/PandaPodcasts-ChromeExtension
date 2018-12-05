@@ -12,6 +12,10 @@ html > body > header a.logo {
     background-image: url('/apps/nytimes/images/logos/full-543x80.png');
 }
 
+html > body > header a.logo:hover {
+    transform: scale(1.05);
+}
+
 html > body > header div.social a:hover {
     background-color: #6489a4;
 }
@@ -53,7 +57,15 @@ html > body > div.content div.podcasts div.podcasts div.podcast div.empty div.co
 }
 
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
-    font-family: 'nyt-franklin-500-normal';
+    font-family: 'nyt-franklin-700-normal';
+    background-color: #ebebeb;
+    border-color: #cccccc;
+    color: #333333;
+}
+
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a:hover {
+    background-color: #e2e2e2;
+    color: #333333;
 }
 
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.title {

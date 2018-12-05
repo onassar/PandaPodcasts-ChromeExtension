@@ -11,18 +11,11 @@ html {
             > a.logo {
                 display: block;
                 float: left;
-                // background-image: url('../images/logos/full-543x80.png');
                 width: 162.9px;
                 height: 24px;
                 background-size: contain;
-                // width: 22px;
-                // height: 22px;
                 margin: 20px 0 0 19px;
                 transition: all 150ms;
-
-                &:hover {
-                    transform: scale(1.05);// rotate(-3deg);
-                }
             }
 
             > div.social {

@@ -48,8 +48,6 @@ html > body > header {
     background-size: contain;
     margin: 20px 0 0 19px;
     transition: all 150ms; }
-    html > body > header > a.logo:hover {
-      transform: scale(1.05); }
   html > body > header > div.social {
     float: right;
     height: 64px;
@@ -340,7 +338,8 @@ html {
       html > body > div.content > div.podcasts > div.podcasts {
         float: left;
         width: 384px;
-        background-color: red; }
+        background-color: red;
+        height: 100%; }
         html > body > div.content > div.podcasts > div.podcasts > div.podcast {
           padding: 12px 12px 12px 16px;
           height: inherit;
@@ -420,8 +419,8 @@ html {
             html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes > div.more {
               margin: 12px 0 0 0; }
               html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes > div.more > a {
-                background-color: #555555;
-                color: #E3E2DE;
+                background-color: red;
+                color: white;
                 display: block;
                 transition: all 75ms;
                 font-size: 20px;
@@ -430,16 +429,14 @@ html {
                 margin: 0 auto 0 auto;
                 text-decoration: none;
                 text-align: center;
-                background-color: #ebebeb;
                 border-radius: 3px;
                 height: 30px;
                 line-height: 30px;
                 min-width: 130px;
-                font-size: 12px;
-                border: 1px solid #cccccc;
-                color: #333333;
+                font-size: 11px;
+                border: 1px solid green;
                 text-transform: uppercase;
                 font-weight: 900; }
                 html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes > div.more > a:hover {
-                  background-color: #E2E2E2;
-                  color: rgba(51, 51, 51, 0.7); }
+                  background-color: blue;
+                  color: black; }
