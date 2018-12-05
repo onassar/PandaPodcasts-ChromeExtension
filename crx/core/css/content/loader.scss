@@ -1,5 +1,5 @@
 div.loader {
-    background-color: #2C2C2C;
+    background-color: red;
     position: absolute;
     top: 0;
     right: 0;
@@ -10,7 +10,7 @@ div.loader {
 
     > div.media {
 
-        div.head {
+        div.graphic {
             margin: 0 auto 0 auto;
             width: 80px;
             height: 80px;
@@ -26,8 +26,6 @@ div.loader {
                 animation-duration: 4200ms;
                 animation-iteration-count: infinite;
                 animation-timing-function: linear;
-
-                border-radius: 100px;
             }
         }
 

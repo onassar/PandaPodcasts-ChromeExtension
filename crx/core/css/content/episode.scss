@@ -13,8 +13,6 @@ div.episode {
             height: $thumbHeight;
             background-repeat: no-repeat;
             background-position: center center;
-            // background-position: top left;
-            // background-size: contain;
             background-size: cover;
             opacity: 0.9;
         }
@@ -46,13 +44,13 @@ div.episode {
                 margin: 4px 0 0 0;
 
                 &.highlight {
-                    background-color: #F62964;
+                    background-color: red;
                     color: #ffffff;
                     font-weight: 700;
                     animation: shake 1000ms;
 
                     &.secondary {
-                        background-color: rgba(#F62964, 0.7);
+                        background-color: rgba(red, 0.7);
                     }
                 }
             }
@@ -67,13 +65,9 @@ div.episode {
             div.details {
 
                 div.title {
-                    color: #f92361;
+                    color: red;
                 }
             }
         }
     }
-
-    // &:last-child {
-    //     padding: 0 0 0 0;
-    // }
 }

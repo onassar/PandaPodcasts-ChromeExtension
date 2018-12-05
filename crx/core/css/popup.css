@@ -237,7 +237,7 @@ html {
     height: 480px;
     overflow: hidden; }
     html body > div.content div.loader {
-      background-color: #2C2C2C;
+      background-color: red;
       position: absolute;
       top: 0;
       right: 0;
@@ -245,12 +245,12 @@ html {
       left: 0;
       display: grid;
       place-items: center center; }
-      html body > div.content div.loader > div.media div.head {
+      html body > div.content div.loader > div.media div.graphic {
         margin: 0 auto 0 auto;
         width: 80px;
         height: 80px;
         transition: all 200ms; }
-        html body > div.content div.loader > div.media div.head div.media {
+        html body > div.content div.loader > div.media div.graphic div.media {
           width: 80px;
           height: 80px;
           background-position: center center;
@@ -259,8 +259,7 @@ html {
           animation-name: rotate;
           animation-duration: 4200ms;
           animation-iteration-count: infinite;
-          animation-timing-function: linear;
-          border-radius: 100px; }
+          animation-timing-function: linear; }
       html body > div.content div.loader > div.media div.copy {
         color: #ffffff;
         width: 80%;
@@ -300,7 +299,7 @@ html {
             border-radius: 100px;
             background-size: 100%; }
           html body > div.content div.podcasts nav > div div.badge {
-            background-color: #F32E66;
+            background-color: red;
             border-radius: 100px;
             height: 9px;
             width: 9px;
@@ -310,7 +309,7 @@ html {
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
             transition: all 200ms; }
             html body > div.content div.podcasts nav > div div.badge.secondary {
-              background-color: #F56A92; }
+              background-color: red; }
           html body > div.content div.podcasts nav > div div.chevron {
             background: #2C2C2C;
             display: none;
@@ -401,16 +400,16 @@ html {
                     float: left;
                     margin: 4px 0 0 0; }
                     html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight {
-                      background-color: #F62964;
+                      background-color: red;
                       color: #ffffff;
                       font-weight: 700;
                       animation: shake 1000ms; }
                       html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight.secondary {
-                        background-color: rgba(246, 41, 100, 0.7); }
+                        background-color: rgba(255, 0, 0, 0.7); }
                 html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.media {
                   opacity: 1.0; }
                 html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.details div.title {
-                  color: #f92361; }
+                  color: red; }
             html body > div.content div.podcasts div.podcasts div.podcast div.episodes::-webkit-scrollbar {
               -webkit-appearance: none;
               width: 6px;

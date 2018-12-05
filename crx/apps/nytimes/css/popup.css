@@ -1,34 +1,90 @@
 @import './fonts.css';
-@import './header.css';
 
 html {
     font-family: Arial;
 }
 
-div.loader > div.media div.copy {
+/**
+ * Header
+ * 
+ */
+html body header a.logo {
+    background-image: url('/apps/nytimes/images/logos/full-543x80.png');
+}
+
+html body header div.social a:hover {
+    background-color: #6489a4;
+}
+
+/**
+ * Loader
+ * 
+ */
+html body div.content div.loader {
+    background-color: #2c2c2c;
+}
+
+html body div.content div.loader > div.media div.copy {
     font-family: 'cheltenham-normal-500';
 }
 
-div.modal div.content h1 sup {
-    font-family: 'cheltenham-normal-500';
+html body div.content div.loader > div.media div.graphic div.media {
+    border-radius: 100px;
 }
 
-div.modal div.content p {
-    font-family: Georgia;
+/**
+ * Podcasts content
+ * 
+ */
+html body div.content div.podcasts nav > div div.badge {
+    background-color: #f32e66;
 }
 
-div.social a:hover {
-    background-color: #6489A4;
+html body div.content div.podcasts nav > div div.badge.secondary {
+    background-color: #f56a92;
 }
 
+html body div.content div.podcasts div.podcasts div.podcast div.empty div.copy p {
+    font-family: 'nyt-cheltenham-sh-400-normal';
+}
+
+html body div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
+    font-family: 'nyt-franklin-500-normal';
+}
+
+html body div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.title {
+    font-family: 'cheltenham-normal-700';
+}
+
+html body div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight {
+    background-color: #f62964;
+}
+
+html body div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight.secondary {
+    background-color: #f62964;
+    opacity: 0.7;
+}
+
+html body div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.details div.title {
+    color: #f92361;
+}
+
+/**
+ * Footer
+ * 
+ */
 html body footer a {
     font-family: 'nyt-franklin-700-normal';
 }
 
-div.podcasts div.podcast div.empty div.copy p {
-    font-family: 'nyt-cheltenham-sh-400-normal';
+/**
+ * Modals
+ * 
+ */
+html body div.modal div.content h1 sup {
+    font-family: 'cheltenham-normal-500';
 }
 
-div.podcasts div.podcast div.episodes div.more a {
-    font-family: 'nyt-franklin-500-normal';
+html body div.modal div.content p {
+    font-family: Georgia;
 }

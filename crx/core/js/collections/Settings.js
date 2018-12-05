@@ -35,6 +35,17 @@ window.DependencyLoader.push(['BaseCollection', 'SettingModel'], function() {
         },
 
         /**
+         * copy
+         * 
+         * @access  public
+         * @return  String
+         */
+        copy: function() {
+            var copy = this.remote('copy');
+            return copy;
+        },
+
+        /**
          * facts
          * 
          * @access  public

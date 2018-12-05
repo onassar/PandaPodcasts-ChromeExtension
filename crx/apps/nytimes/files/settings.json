@@ -74,9 +74,9 @@
         "value": {
             "base": "https://www.nytimes.com",
             "gitHub": {
-                "repository": "https://github.com/onassar/NYTimesPodcasts-ChromeExtension"
+                "repository": "https://github.com/onassar/PandaPodcasts-ChromeExtension"
             },
-            "homepage": "https://www.nytimes.com/spotlight/podcasts?utm_source=nytimes-podcasts-unofficial-chrome-extension&utm_medium=NYTimes%20Podcasts%20Unofficial%20Chrome%20Extension"
+            "homepage": "https://www.nytimes.com/spotlight/podcasts?utm_source=nytimes-podcasts-unofficial-chrome-extension&utm_medium=Panda%20Podcasts%20Unofficial%20Chrome%20Extension"
         }
     },
     {
@@ -109,6 +109,7 @@
             "development"
         ],
         "value": {
+            "copy": "/apps/nytimes/files/copy.json",
             "facts": "/apps/nytimes/files/facts.json",
             "podcasts": "/apps/nytimes/files/podcasts.json",
             "proxy": "https://local.getstencil.com/utils/proxy"
@@ -120,8 +121,8 @@
             "production"
         ],
         "value": {
-            "facts": "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/files/facts.json",
-            "podcasts": "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/files/podcasts.json",
+            "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/facts.json",
+            "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/podcasts.json",
             "proxy": "https://getstencil.com/utils/proxy"
         }
     },
@@ -159,13 +160,13 @@
             "production"
         ],
         "value": [
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/episode.html",
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/nav.html",
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/navItem.html",
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/podcast.html",
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/podcasts.html",
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/tooltip.html",
-            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/modals/about.html"
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/components/episode.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/components/nav.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/components/navItem.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/components/podcast.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/components/podcasts.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/components/tooltip.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/templates/modals/about.html"
         ]
     },
     {

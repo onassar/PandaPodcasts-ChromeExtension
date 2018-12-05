@@ -31,6 +31,7 @@ window.PandaPodcastsPopup = (function() {
             var promises = [
                 await LogUtils.log('Popup: Start'),
                 await __loadSettings(),
+                await __loadCopy(),
                 await __loadFacts(),
                 await __showRandomFact(),
                 await __loadPodcasts(),
@@ -83,6 +84,23 @@ window.PandaPodcastsPopup = (function() {
                 reject(errors);
             })
         });
+    };
+
+    /**
+     * __loadCopy
+     * 
+     * @access  private
+     * @return  Promise
+     */
+    var __loadCopy = function() {
+        var model = DataUtils.get.model('Copy'),
+            promise = model.list().then(function(copy) {
+                __collections.copy = copy;
+                return copy;
+            }).catch(function(err) {
+                LogUtils.log(err)
+            });
+        return promise;
     };
 
     /**
@@ -181,17 +199,17 @@ window.PandaPodcastsPopup = (function() {
      */
     var __showRandomFact = function() {
         var $body = $('body'),
-            $head = $body.find('div.loader div.head'),
+            $graphic = $body.find('div.loader div.graphic'),
             $copy = $body.find('div.loader div.copy'),
             fact = PandaPodcastsPopup.get.facts().random(),
             loadingScreenImages = __collections.settings.find('key', 'loadingScreenImages').get('value'),
             loadingScreenImage = ArrayUtils.random(loadingScreenImages);
         fact = fact.get('fact');
-        $head.find('.media').css({
+        $graphic.find('.media').css({
             'background-image': 'url(\'' + (loadingScreenImage) + '\')'
         });
         $copy.text(fact);
-        $head.removeClass('invisible');
+        $graphic.removeClass('invisible');
         $copy.removeClass('invisible');
     };
 
@@ -221,6 +239,17 @@ window.PandaPodcastsPopup = (function() {
          * @var     Object
          */
         get: {
+
+            /**
+             * copy
+             * 
+             * @access  public
+             * @return  CopyCollection
+             */
+            copy: function() {
+                var collection = __collections.copy;
+                return collection;
+            },
 
             /**
              * facts

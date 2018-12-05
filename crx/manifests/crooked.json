@@ -8,6 +8,8 @@
     "background": {
         "persistent": true,
         "scripts": [
+            "/core/vendors/external/jquery/v3.3.1/jquery-3.3.1.min.js",
+            "/core/vendors/external/moment/v2.10.6/moment.js",
             "/core/vendors/external/extend/v0.0.0/extend.js",
             "/core/vendors/internal/DependencyLoader.js",
             "/core/js/accessors/Base.js",

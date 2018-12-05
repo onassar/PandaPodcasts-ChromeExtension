@@ -29,7 +29,7 @@ nav {
         }
 
         div.badge {
-            background-color: #F32E66;
+            background-color: red;
             border-radius: 100px;
             height: 9px;
             width: 9px;
@@ -38,10 +38,9 @@ nav {
             right: 11px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
             transition: all 200ms;
-            // border: 1px solid rgba(0, 0, 0, 0.4);
 
             &.secondary {
-                background-color: #F56A92;
+                background-color: red;
             }
         }
 

@@ -193,6 +193,17 @@ window.SettingsUtils = (function() {
         },
 
         /**
+         * getRemoteCopyURL
+         * 
+         * @access  public
+         * @var     String
+         */
+        getRemoteCopyURL: function() {
+            var url = __getPageSingleton().get.settings().copy();
+            return url;
+        },
+
+        /**
          * getRemoteFactsURL
          * 
          * @access  public
