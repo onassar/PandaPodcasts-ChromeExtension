@@ -16,17 +16,12 @@
         "value": "1h"
     },
     {
-        "key": "podcastEpisodeTimestampOutputFormat",
+        "key": "cloudinaryCloudName",
         "roles": [
             "development",
             "production"
         ],
-        "value": {
-            "lastDay": "[Yesterday]",
-            "sameDay": "[Today]",
-            "lastWeek": "dddd",
-            "sameElse": "MMM. D"
-        }
+        "value": "crooked"
     },
     {
         "key": "defaultPodcastEpisodeTimestampFormat",
@@ -52,6 +47,20 @@
         }
     },
     {
+        "key": "fallbackEpisodeData",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "timestamp": "unknown",
+            "link": "https://nytimes.com/",
+            "title": "(unknown title)",
+            "description": "(unknown description)",
+            "thumb": "https://i.imgur.com/ScZUVok.jpg"
+        }
+    },
+    {
         "key": "hosts",
         "roles": [
             "development",
@@ -61,14 +70,6 @@
             "cloudinary": "res.cloudinary.com",
             "cloudFront": "dx5683gi1tv0w.cloudfront.net"
         }
-    },
-    {
-        "key": "cloudinaryCloudName",
-        "roles": [
-            "development",
-            "production"
-        ],
-        "value": "crooked"
     },
     {
         "key": "imageResizingService",
@@ -123,6 +124,19 @@
         "value": 1500
     },
     {
+        "key": "podcastEpisodeTimestampOutputFormat",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "lastDay": "[Yesterday]",
+            "sameDay": "[Today]",
+            "lastWeek": "dddd",
+            "sameElse": "MMM. D"
+        }
+    },
+    {
         "key": "remotes",
         "roles": [
             "development"
@@ -175,19 +189,5 @@
             "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/tooltip.html",
             "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/modals/about.html"
         ]
-    },
-    {
-        "key": "fallbackEpisodeData",
-        "roles": [
-            "development",
-            "production"
-        ],
-        "value": {
-            "timestamp": "unknown",
-            "link": "https://nytimes.com/",
-            "title": "(unknown title)",
-            "description": "(unknown description)",
-            "thumb": "https://i.imgur.com/ScZUVok.jpg"
-        }
     }
 ]

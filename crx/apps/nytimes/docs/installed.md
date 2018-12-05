@@ -1,9 +1,10 @@
 ## NYTimes Podcasts Chrome Extension Installed
 
 ### Congratulations!
-The (unofficial and unauthorized) [New York Times](https://nytimes.com/) Chrome
-Extension has been installed, and you can now check out the newest episodes from
-each of their podcasts by simply clicking on the Chrome Extension icon.
+The (unofficial and unauthorized) [New York Times](https://nytimes.com/)
+Podcasts Chrome Extension has been installed, and you can now check out the
+newest episodes from each of their podcasts by simply clicking on the Chrome
+Extension icon.
 
 ### Disclosure
 This Chrome Extension is not affiliated with, or supported by,
