@@ -1,0 +1,24 @@
+<script name="Podcast" type="text/template">
+    <div class="podcast hidden" name="<%= podcast.get('name') %>">
+        <div class="empty hidden">
+            <!-- <div class="media"></div> -->
+            <div class="copy">
+                <p>
+                    Oh ho! Couldn't find any episodes for this podcast.
+                </p>
+                <p>
+                    This is probably a bug, and you should contact the
+                    developer here:
+                    <a href="mailto:onassar@gmail.com" target="_blank">onassar@gmail.com</a>
+                </p>
+            </div>
+        </div>
+        <div class="episodes">
+            <% if (podcast.get('more') === true) { %>
+                <div class="more">
+                    <a href="<%= podcast.get('link') %>" target="_blank">View more</a>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</script>

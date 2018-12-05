@@ -1,0 +1,95 @@
+nav {
+    float: left;
+    width: 56px;
+    background-color: #2C2C2C;
+    height: inherit;
+    // overflow: hidden;
+
+    > div {
+        position: relative;
+        padding: 4px 0 4px 0;
+        padding: 10px 0 10px 0;
+
+        div.thumb {
+            height: 48px;
+            width: 48px;
+            margin: 0 auto 0 auto;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: 58%;
+            opacity: 0.7;
+            filter: grayscale(100%);
+            transition: all 150ms;
+
+            height: 28px;
+            width: 28px;
+            border-radius: 100px;
+            background-size: 100%;
+            // margin: 10px auto 10px auto;
+        }
+
+        div.badge {
+            background-color: #F32E66;
+            border-radius: 100px;
+            height: 9px;
+            width: 9px;
+            position: absolute;
+            top: 7px;
+            right: 11px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+            transition: all 200ms;
+            // border: 1px solid rgba(0, 0, 0, 0.4);
+
+            &.secondary {
+                background-color: #F56A92;
+            }
+        }
+
+        div.chevron {
+            // position: relative;
+            background: #2C2C2C;
+            // left: -7px;
+            // top: 6px;
+            display: none;
+            position: absolute;
+            right: 3px;
+            top: 50%;
+
+            &:after {
+                left: 100%;
+                top: 50%;
+                border: solid transparent;
+                content: " ";
+                height: 0;
+                width: 0;
+                position: absolute;
+                pointer-events: none;
+                border-color: rgba(0, 0, 0, 0);
+                border-left-color: #2C2C2C;
+                border-width: 8px;
+                margin-top: -8px;
+            }
+        }
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &.active,
+        &:hover {
+
+            div.thumb {
+                transform: scale(1.20) rotate(3deg);
+                opacity: 1.0;
+                filter: grayscale(0%);
+            }
+        }
+
+        &.active {
+
+            div.chevron {
+                display: block;
+            }
+        }
+    }
+}

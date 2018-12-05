@@ -1,0 +1,71 @@
+[
+    {
+        "key": "td",
+        "name": "The Daily",
+        "link": "https://www.nytimes.com/column/the-daily",
+        "description": "This is how the news should sound. Twenty minutes a day, five days a week, hosted by Michael Barbaro and powered by New York Times journalism.",
+        "show": true,
+        "more": true,
+        "thumb": "/apps/nytimes/images/podcasts/td.jpg",
+        "episodes": {
+            "reverse": false
+        }
+    },
+    {
+        "key": "sp",
+        "name": "Still Processing",
+        "link": "https://www.nytimes.com/column/still-processing-podcast",
+        "description": "Wesley Morris and Jenna Wortham are working it out.",
+        "show": true,
+        "more": true,
+        "thumb": "/apps/nytimes/images/podcasts/sp.jpg",
+        "episodes": {
+            "reverse": false
+        },
+        "timestampFormat": "YYYY\\/MM\\/DD",
+        "xPathExpressions": {
+            "episodes": "//section[contains(@id, 'stream-panel')]//ol//li[contains(@class, 'css-')]",
+            "timestamp": "substring(*//a/@href, 2, 10)",
+            "description": "string(*//p[contains(@class, 'css-')]/text())",
+            "title": "string(*//h2[contains(@class, 'css-')]/text())",
+            "link": "string(*//a/@href)",
+            "thumb": "string(*//img[contains(@class, 'css-')]/@src)"
+        }
+    },
+    {
+        "key": "p",
+        "name": "Popcast",
+        "link": "https://www.nytimes.com/column/popcast-pop-music-podcast",
+        "description": "The Times's pop music team on music news, new songs and albums, and artists of note.",
+        "show": true,
+        "more": true,
+        "thumb": "/apps/nytimes/images/podcasts/p.jpg",
+        "episodes": {
+            "reverse": false
+        }
+    },
+    {
+        "key": "tbr",
+        "name": "The Book Review",
+        "link": "https://www.nytimes.com/column/book-review-podcast",
+        "description": "The podcast that takes you inside the literary world.",
+        "show": true,
+        "more": true,
+        "thumb": "/apps/nytimes/images/podcasts/tbr.jpg",
+        "episodes": {
+            "reverse": false
+        }
+    },
+    {
+        "key": "ca",
+        "name": "Change Agent",
+        "link": "https://www.nytimes.com/column/change-agent",
+        "description": "Everyone’s got problems. We try to fix them.",
+        "show": true,
+        "more": true,
+        "thumb": "/apps/nytimes/images/podcasts/ca.jpg",
+        "episodes": {
+            "reverse": false
+        }
+    }
+]

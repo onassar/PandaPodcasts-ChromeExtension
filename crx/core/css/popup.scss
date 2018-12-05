@@ -1,0 +1,34 @@
+$width: 440px;
+$headerHeight: 64px;
+$contentHeight: 480px;
+$footerHeight: 28px;
+
+@import 'components/animations';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/helpers';
+@import 'components/modals';
+@import 'components/tooltips';
+
+html {
+    width: $width;
+
+    body {
+
+        > div.content {
+            position: relative;
+            height: $contentHeight;
+            overflow: hidden;
+            @import 'content/loader';
+
+            div.podcasts {
+                overflow: hidden;
+                height: inherit;
+                background-color: #f8f8f8;
+                background-color: #f7f7f7;
+                @import 'content/nav';
+                @import 'content/podcasts';
+            }
+        }
+    }
+}

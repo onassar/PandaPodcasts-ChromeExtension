@@ -1,0 +1,91 @@
+div.podcasts {
+    float: left;
+    width: 384px;
+    background-color: #f8f8f8;
+    background-color: #f7f7f7;
+
+    div.podcast {
+        padding: 12px 12px 12px 16px;
+        height: inherit;
+        overflow: hidden;
+        box-sizing: border-box;
+
+        div.empty {
+            display: grid;
+            place-items: center center;
+            height: 100%;
+
+            div.copy {
+                padding: 0 16px 0 16px;
+                text-align: center;
+
+                p {
+                    font-size: 15px;
+                    line-height: 1.5em;
+                    color: #1a1a1a;
+
+                    a {
+                        color: #1a1a1a;
+
+                        &:hover {
+                            color: #6676fb;
+                        }
+                    }
+                }
+            }
+        }
+
+        div.episodes {
+            @import 'episode';
+            overflow: auto;
+            // max-height: calc($contentHeight - 12px - 12px);
+            max-height: 100%;
+
+            &::-webkit-scrollbar {
+                -webkit-appearance: none;
+                width: 6px;
+                background-color: #dddddd;
+                border-radius: 100px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                border-radius: 100px;
+                background-color: #bbbbbb;
+            }
+
+            div.more {
+                margin: 12px 0 0 0;
+
+                a {
+                    background-color: #555555;
+                    color: #E3E2DE;
+                    display: block;
+                    transition: all 75ms;
+                    font-size: 20px;
+                    line-height: 1.3em;
+                    width: 120px;
+                    margin: 0 auto 0 auto;
+                    text-decoration: none;
+                    text-align: center;
+
+                    background-color: #ebebeb;
+                    border-radius: 3px;
+                    height: 30px;
+                    line-height: 30px;
+                    min-width: 130px;
+                    font-size: 12px;
+                    border: 1px solid #cccccc;
+                    color: #333333;
+                    text-transform: uppercase;
+                    font-weight: 900;
+
+                    &:hover {
+                        // color: #1a1a1a;
+                        background-color: #E2E2E2;
+                        color: rgba(#333333, 0.7);
+                    }
+                }
+            }
+        }
+    }
+}

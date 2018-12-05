@@ -1,0 +1,34 @@
+@import './fonts.css';
+@import './header.css';
+
+html {
+    font-family: Arial;
+}
+
+div.loader > div.media div.copy {
+    font-family: 'cheltenham-normal-500';
+}
+
+div.modal div.content h1 sup {
+    font-family: 'cheltenham-normal-500';
+}
+
+div.modal div.content p {
+    font-family: Georgia;
+}
+
+div.social a:hover {
+    background-color: #6489A4;
+}
+
+html body footer a {
+    font-family: 'nyt-franklin-700-normal';
+}
+
+div.podcasts div.podcast div.empty div.copy p {
+    font-family: 'nyt-cheltenham-sh-400-normal';
+}
+
+div.podcasts div.podcast div.episodes div.more a {
+    font-family: 'nyt-franklin-500-normal';
+}

@@ -1,0 +1,46 @@
+div.loader {
+    background-color: #2C2C2C;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    place-items: center center;
+
+    > div.media {
+
+        div.head {
+            margin: 0 auto 0 auto;
+            width: 80px;
+            height: 80px;
+            transition: all 200ms;
+
+            div.media {
+                width: 80px;
+                height: 80px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                animation-name: rotate;
+                animation-duration: 4200ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+
+                border-radius: 100px;
+            }
+        }
+
+        div.copy {
+            color: #ffffff;
+            width: 80%;
+            margin: 12px auto 0 auto;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5em;
+            font-style: italic;
+            transition: all 200ms;
+        }
+    }
+}

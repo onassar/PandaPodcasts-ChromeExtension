@@ -1,0 +1,16 @@
+<script name="NavItem" type="text/template">
+    <div tooltip data-title="<%= podcast.get('name') %>" data-direction="right">
+        <%
+            var classes = ['badge', 'invisible'];
+            if (podcast.postedYesterday() === true) {
+                classes = ['badge', 'secondary'];
+            }
+            if (podcast.postedToday() === true) {
+                classes = ['badge'];
+            }
+        %>
+        <div class="thumb" style="background-image: url('<%= podcast.get('thumb') %>');"></div>
+        <div class="<%= classes.join(' ') %>"></div>
+        <div class="chevron"></div>
+    </div>
+</script>

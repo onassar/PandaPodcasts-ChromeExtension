@@ -1,0 +1,28 @@
+<script name="Episode" type="text/template">
+    <div class="episode">
+        <a class="clearfix" href="<%= episode.getLink() %>" target="_blank">
+            <div class="media" style="background-image: url('<%= episode.getThumb() %>');">
+            </div>
+            <div class="details">
+                <div class="title">
+                    <%= episode.getTitle() %>
+                </div>
+                <%
+                    if (episode.showTimestamp() === true) {
+                        var classes = ['timestamp'];
+                        if (episode.postedToday() === true) {
+                            classes.push('highlight');
+                        }
+                        if (episode.postedYesterday() === true) {
+                            classes.push('highlight');
+                            classes.push('secondary');
+                        }
+                %>
+                    <div class="<%= classes.join(' ') %>" timestamp="<%= episode.get('timestamp') %>">
+                        <%= episode.getFormattedTimestamp() %>
+                    </div>
+                <% } %>
+            </div>
+        </a>
+    </div>
+</script>

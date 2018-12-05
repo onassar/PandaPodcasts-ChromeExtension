@@ -1,0 +1,104 @@
+div.modal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    place-items: center center;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: all 200ms;
+
+    div.content {
+        background-color: #ffffff;
+        border-radius: 4px;
+        width: 70%;
+        padding: 20px 30px 20px 30px;
+        position: relative;
+        transform: scale(0.9);
+        transition: all 200ms;
+
+        a.close {
+            text-decoration: none;
+            position: absolute;
+            top: 4px;
+            font-size: 20px;
+            right: 4px;
+            height: 20px;
+            line-height: 20px;
+            width: 20px;
+            text-align: center;
+            color: #c2c2c2;
+            transition: all 150ms linear;
+
+            &:hover {
+                color: #514E4E;
+                transform: rotate(90deg);
+            }
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 19px;
+            line-height: 1.25em;
+
+            sup {
+                top: -1.1em;
+                font-size: 10px;
+                // opacity: 0.5;
+                letter-spacing: 0.7px;
+                color: rgba(#000000, 0.5);
+                padding: 0 0 0 4px;
+            }
+        }
+
+        p {
+            font-size: 13px;
+            line-height: 1.5em;
+            color: #1a1a1a;
+
+            a {
+                color: #1a1a1a;
+
+                &:hover {
+                    color: #6676fb;
+                }
+            }
+        }
+
+        hr {
+            height: 1px;
+            border: none;
+            margin: 8px 0 8px 0;
+            background-color: rgba(#7F7F7F, 0.2);
+        }
+
+        div.ingos {
+
+            a {
+                display: block;
+                float: left;
+                width: 154px;
+                height: 40px;
+                background-repeat: no-repeat;
+                background-size: 92%;
+                background-position: center center;
+                opacity: 0.8;
+                transition: all 125ms;
+
+                &:hover {
+                    opacity: 1.0;
+                }
+            }
+        }
+    }
+
+    &.showing {
+        opacity: 1.0;
+
+        div.content {
+            transform: scale(1);
+        }
+    }
+}

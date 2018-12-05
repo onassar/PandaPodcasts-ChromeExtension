@@ -1,0 +1,34 @@
+<script name="AboutModal" type="text/template">
+    <div class="modal about">
+        <div class="content">
+            <a href="#" class="close fa fa-close" lookup="close"></a>
+            <h1>About this Chrome Extension<sup>v<%= SettingsUtils.version() %></sup></h1>
+            <p>
+                This Chrome Extension is not affiliated with, or supported
+                by,
+                <a class="logo" href="<%= SettingsUtils.getLink('homepage') %>" target="_blank">The New York Times</a>.
+            </p>
+            <p>
+                Rather, it's something I (Oliver Nassar) built as a fan of
+                their podcasts to make it easier to stay on top of new
+                episodes.
+            </p>
+            <p>
+                The code for this Chrome Extension has been
+                <a href="<%= SettingsUtils.getLink('gitHub').repository %>" target="_blank">open sourced</a>,
+                and comments can be emailed to me at
+                <a href="mailto:onassar@gmail.com">onassar@gmail.com</a>.
+            </p>
+            <hr />
+            <p>
+                Any support you may want to provide can be directed here:
+            </p>
+            <div class="ingos clearfix">
+                <a href="https://www.doctorswithoutborders.ca/donate-now" target="_blank" style="background-image: url('/core/images/ingos/msf.png');" tooltip data-title="Go to doctorswithoutborders.ca">
+                </a>
+                <a href="https://give.unhcr.ca/page/30236/donate/1?ea.tracking.id=18-OL_UNR" target="_blank" style="background-image: url('/core/images/ingos/unhcr.png');" tooltip data-title="Go to give.unhcr.ca">
+                </a>
+            </div>
+        </div>
+    </div>
+</script>

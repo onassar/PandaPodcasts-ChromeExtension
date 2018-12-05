@@ -1,0 +1,41 @@
+[
+    {
+        "key": "apps",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": [
+            {
+                "source": "manifest",
+                "key": "short_name",
+                "value": "crooked",
+                "properties": {
+                    "name": "Pod Save America & Crooked Media",
+                    "resources": {
+                        "root": "/apps/crooked",
+                        "settings": {
+                            "development": "/apps/crooked/files/settings.json",
+                            "production": "/apps/crooked/files/settings.json"
+                        }
+                    }
+                }
+            },
+            {
+                "source": "manifest",
+                "key": "short_name",
+                "value": "nytimes",
+                "properties": {
+                    "name": "The New York Times: Podcasts",
+                    "resources": {
+                        "root": "/apps/nytimes",
+                        "settings": {
+                            "development": "/apps/nytimes/files/settings.json",
+                            "production": "/apps/nytimes/files/settings.json"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

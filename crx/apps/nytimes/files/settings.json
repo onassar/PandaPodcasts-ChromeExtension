@@ -1,0 +1,185 @@
+[
+    {
+        "key": "cloudFlareCacheBustString",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "bustV2"
+    },
+    {
+        "key": "cloudFlareCacheDuration",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "1h"
+    },
+    {
+        "key": "defaultPodcastEpisodeTimestampFormat",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "ll"
+    },
+    {
+        "key": "defaultXPathExpressions",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "episodes": "//section[contains(@id, 'latest-panel')]//ol[contains(@class, 'story-menu theme-stream initial-set')]//li[contains(@id, 'story-id')]",
+            "timestamp": "string(*//time/text())",
+            "description": "string(*//p[contains(@class, 'summary')]/text())",
+            "title": "string(*//h2[contains(@class, 'headline')]/text())",
+            "link": "string(*//a[contains(@class, 'story-link')]/@href)",
+            "thumb": "string(*//img[contains(@role, 'presentation')]/@src)"
+        }
+    },
+    {
+        "key": "hosts",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "cloudinary": "res.cloudinary.com",
+            "cloudFront": "dx5683gi1tv0w.cloudfront.net"
+        }
+    },
+    {
+        "key": "cloudinaryCloudName",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "crooked"
+    },
+    {
+        "key": "imageResizingService",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "cloudinary"
+    },
+    {
+        "key": "links",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "base": "https://www.nytimes.com",
+            "gitHub": {
+                "repository": "https://github.com/onassar/NYTimesPodcasts-ChromeExtension"
+            },
+            "homepage": "https://www.nytimes.com/spotlight/podcasts?utm_source=nytimes-podcasts-unofficial-chrome-extension&utm_medium=NYTimes%20Podcasts%20Unofficial%20Chrome%20Extension"
+        }
+    },
+    {
+        "key": "loadingScreenImages",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": [
+            "/apps/nytimes/images/spinners/favicon.jpg"
+        ]
+    },
+    {
+        "key": "loadingScreenSleepDelay",
+        "roles": [
+            "development"
+        ],
+        "value": 0
+    },
+    {
+        "key": "loadingScreenSleepDelay",
+        "roles": [
+            "production"
+        ],
+        "value": 1500
+    },
+    {
+        "key": "remotes",
+        "roles": [
+            "development"
+        ],
+        "value": {
+            "facts": "/apps/nytimes/files/facts.json",
+            "podcasts": "/apps/nytimes/files/podcasts.json",
+            "proxy": "https://local.getstencil.com/utils/proxy"
+        }
+    },
+    {
+        "key": "remotes",
+        "roles": [
+            "production"
+        ],
+        "value": {
+            "facts": "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/files/facts.json",
+            "podcasts": "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/files/podcasts.json",
+            "proxy": "https://getstencil.com/utils/proxy"
+        }
+    },
+    {
+        "key": "social",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "facebook": "https://www.facebook.com/nytimes/",
+            "twitter": "https://twitter.com/nytimes",
+            "instagram": "https://www.instagram.com/nytimes/",
+            "youTube": "https://www.youtube.com/user/TheNewYorkTimes"
+        }
+    },
+    {
+        "key": "templates",
+        "roles": [
+            "development"
+        ],
+        "value": [
+            "/core/templates/components/episode.html",
+            "/core/templates/components/nav.html",
+            "/core/templates/components/navItem.html",
+            "/core/templates/components/podcast.html",
+            "/core/templates/components/podcasts.html",
+            "/core/templates/components/tooltip.html",
+            "/core/templates/modals/about.html"
+        ]
+    },
+    {
+        "key": "templates",
+        "roles": [
+            "production"
+        ],
+        "value": [
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/episode.html",
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/nav.html",
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/navItem.html",
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/podcast.html",
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/podcasts.html",
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/components/tooltip.html",
+            "https://raw.githubusercontent.com/onassar/NYTimesPodcasts-ChromeExtension/master/crx/templates/modals/about.html"
+        ]
+    },
+    {
+        "key": "fallbackEpisodeData",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "timestamp": "unknown",
+            "link": "https://nytimes.com/",
+            "title": "(unknown title)",
+            "description": "(unknown description)",
+            "thumb": "https://i.imgur.com/ScZUVok.jpg"
+        }
+    }
+]

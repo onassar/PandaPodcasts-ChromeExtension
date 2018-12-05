@@ -1,0 +1,35 @@
+html {
+
+    body {
+
+        footer {
+            height: $footerHeight;
+            border-top: 1px solid #dddddd;
+            background-color: #ffffff;
+            padding: 0 12px 0 0;
+
+            a {
+                display: block;
+                float: right;
+                color: #1a1a1a;
+                text-transform: uppercase;
+                text-decoration: none;
+                height: $footerHeight;
+                line-height: $footerHeight;
+                font-size: 11px;
+
+                &:hover {
+                    color: #6676fb;
+                }
+            }
+
+            div.divider {
+                display: block;
+                float: right;
+                height: $footerHeight;
+                line-height: $footerHeight;
+                padding: 0 7px 0 7px;
+            }
+        }
+    }
+}

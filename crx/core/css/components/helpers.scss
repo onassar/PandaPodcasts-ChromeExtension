@@ -1,0 +1,27 @@
+html {
+
+    body {
+
+        .clearfix {
+            display: inline-block;
+            display: block;
+
+            &:after {
+                visibility: hidden;
+                display: block;
+                font-size: 0;
+                content: " ";
+                clear: both;
+                height: 0;
+            }
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .invisible {
+            opacity: 0;
+        }
+    }
+}
