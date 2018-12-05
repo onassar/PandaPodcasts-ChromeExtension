@@ -37,13 +37,13 @@ window.DTUtils = (function() {
              * @return  void
              */
             moment: function() {
+                var podcastEpisodeTimestampOutputFormat = SettingsUtils.get('podcastEpisodeTimestampOutputFormat');
                 moment.locale('en', {
                     calendar: {
-                        lastDay: '[Yesterday]',
-                        sameDay: '[Today]',
-                        // lastWeek: '[Last] dddd',
-                        lastWeek: 'dddd',
-                        sameElse: 'MMM. D'
+                        lastDay: podcastEpisodeTimestampOutputFormat.lastDay,
+                        sameDay: podcastEpisodeTimestampOutputFormat.sameDay,
+                        lastWeek: podcastEpisodeTimestampOutputFormat.lastWeek,
+                        sameElse: podcastEpisodeTimestampOutputFormat.sameElse
                     }
                 });
             }
@@ -57,7 +57,8 @@ window.DTUtils = (function() {
          * @return  String
          */
         relative: function(timestamp) {
-            return moment(timestamp).fromNow();
+            var formatted = moment(timestamp).fromNow();
+            return formatted;
         },
 
         /**
@@ -68,7 +69,8 @@ window.DTUtils = (function() {
          * @return  String
          */
         timestamp: function(timestamp) {
-            return moment(timestamp).calendar();
+            var formatted = moment(timestamp).calendar();
+            return formatted;
         }
     };
 })();

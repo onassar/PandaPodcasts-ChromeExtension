@@ -16,6 +16,19 @@
         "value": "1h"
     },
     {
+        "key": "podcastEpisodeTimestampOutputFormat",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "lastDay": "[Yesterday]",
+            "sameDay": "[Today]",
+            "lastWeek": "dddd",
+            "sameElse": "MMM. D"
+        }
+    },
+    {
         "key": "defaultPodcastEpisodeTimestampFormat",
         "roles": [
             "development",
