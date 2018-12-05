@@ -5,89 +5,93 @@
  * @see     http://www.cssarrowplease.com/
  */
 $backgroundColor: #000000;
-// $backgroundColor: #fee734;
 $copyColor: #ffffff;
-// $copyColor: #000000;
-div.tooltip {
-    display: none;
-    position: absolute;
-    background: $backgroundColor;
-    color: $copyColor;
-    border-radius: 4px;
-    padding: 0;
-    height: auto;
-    line-height: normal;
-    padding: 5px 10px 5px 10px;
-    left: 0;
-    top: 0;
+html {
 
-    div.chevron {
-        position: relative;
-        background: #000000;
-    }
+    > body {
 
-    &[direction="right"] {
-
-        div.chevron {
-            left: -7px;
-            top: 6px;
-        }
-
-        div.chevron:after {
-            right: 100%;
-            top: 50%;
-            border: solid transparent;
-            content: " ";
-            height: 0;
-            width: 0;
+        div.tooltip {
+            display: none;
             position: absolute;
-            pointer-events: none;
-            border-color: rgba(0, 0, 0, 0);
-            border-right-color: #000000;
-            border-width: 8px;
-            margin-top: -8px;
+            background: $backgroundColor;
+            color: $copyColor;
+            border-radius: 4px;
+            padding: 0;
+            height: auto;
+            line-height: normal;
+            padding: 5px 10px 5px 10px;
+            left: 0;
+            top: 0;
+
+            > div.chevron {
+                position: relative;
+                background: #000000;
+            }
+
+            &[direction="right"] {
+
+                > div.chevron {
+                    left: -7px;
+                    top: 6px;
+
+                    &:after {
+                        right: 100%;
+                        top: 50%;
+                        border: solid transparent;
+                        content: " ";
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        pointer-events: none;
+                        border-color: rgba(0, 0, 0, 0);
+                        border-right-color: #000000;
+                        border-width: 8px;
+                        margin-top: -8px;
+                    }
+                }
+            }
+
+            &[direction="down"] {
+
+                > div.chevron:after {
+                    bottom: 100%;
+                    left: 50%;
+                    border: solid transparent;
+                    content: " ";
+                    height: 0;
+                    width: 0;
+                    position: absolute;
+                    pointer-events: none;
+                    border-color: rgba(0, 0, 0, 0);
+                    border-bottom-color: #000000;
+                    border-width: 8px;
+                    margin-left: -8px;
+                }
+            }
+
+            &[direction="left"] {
+
+                > div.chevron:after {
+                    left: 100%;
+                    top: 50%;
+                    border: solid transparent;
+                    content: " ";
+                    height: 0;
+                    width: 0;
+                    position: absolute;
+                    pointer-events: none;
+                    border-color: rgba(0, 0, 0, 0);
+                    border-left-color: #000000;
+                    border-width: 8px;
+                    margin-top: -8px;
+                }
+            }
+
+            > div.content {
+                position: relative;
+                top: -1px;
+                font-size: 11px;
+            }
         }
-    }
-
-    &[direction="down"] {
-
-        div.chevron:after {
-            bottom: 100%;
-            left: 50%;
-            border: solid transparent;
-            content: " ";
-            height: 0;
-            width: 0;
-            position: absolute;
-            pointer-events: none;
-            border-color: rgba(0, 0, 0, 0);
-            border-bottom-color: #000000;
-            border-width: 8px;
-            margin-left: -8px;
-        }
-    }
-
-    &[direction="left"] {
-
-        div.chevron:after {
-            left: 100%;
-            top: 50%;
-            border: solid transparent;
-            content: " ";
-            height: 0;
-            width: 0;
-            position: absolute;
-            pointer-events: none;
-            border-color: rgba(0, 0, 0, 0);
-            border-left-color: #000000;
-            border-width: 8px;
-            margin-top: -8px;
-        }
-    }
-
-    div.content {
-        position: relative;
-        top: -1px;
-        font-size: 11px;
     }
 }

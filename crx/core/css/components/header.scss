@@ -1,14 +1,14 @@
 html {
 
-    body {
+    > body {
 
-        header {
+        > header {
             height: $headerHeight;
             border-bottom: 1px solid #dddddd;
             background-color: #ffffff;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 
-            a.logo {
+            > a.logo {
                 display: block;
                 float: left;
                 // background-image: url('../images/logos/full-543x80.png');
@@ -25,13 +25,13 @@ html {
                 }
             }
 
-            div.social {
+            > div.social {
                 float: right;
                 height: $headerHeight;
                 padding: 0 16px 0 0;
                 transition: all 150ms;
 
-                a {
+                > a {
                     display: block;
                     float: left;
                     height: 20px;

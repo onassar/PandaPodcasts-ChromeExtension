@@ -12,12 +12,12 @@
     transform: translate3d(-4px, 0, 0); }
   40%, 60% {
     transform: translate3d(4px, 0, 0); } }
-html body footer {
+html > body > footer {
   height: 28px;
   border-top: 1px solid #dddddd;
   background-color: #ffffff;
   padding: 0 12px 0 0; }
-  html body footer a {
+  html > body > footer > a {
     display: block;
     float: right;
     color: #1a1a1a;
@@ -26,21 +26,21 @@ html body footer {
     height: 28px;
     line-height: 28px;
     font-size: 11px; }
-    html body footer a:hover {
+    html > body > footer > a:hover {
       color: #6676fb; }
-  html body footer div.divider {
+  html > body > footer > div.divider {
     display: block;
     float: right;
     height: 28px;
     line-height: 28px;
     padding: 0 7px 0 7px; }
 
-html body header {
+html > body > header {
   height: 64px;
   border-bottom: 1px solid #dddddd;
   background-color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); }
-  html body header a.logo {
+  html > body > header > a.logo {
     display: block;
     float: left;
     width: 162.9px;
@@ -48,14 +48,14 @@ html body header {
     background-size: contain;
     margin: 20px 0 0 19px;
     transition: all 150ms; }
-    html body header a.logo:hover {
+    html > body > header > a.logo:hover {
       transform: scale(1.05); }
-  html body header div.social {
+  html > body > header > div.social {
     float: right;
     height: 64px;
     padding: 0 16px 0 0;
     transition: all 150ms; }
-    html body header div.social a {
+    html > body > header > div.social > a {
       display: block;
       float: left;
       height: 20px;
@@ -69,27 +69,27 @@ html body header {
       text-decoration: none;
       font-weight: 900;
       transition: all 125ms; }
-      html body header div.social a:last-child {
+      html > body > header > div.social > a:last-child {
         margin: 22px 0 0 0; }
-      html body header div.social a:hover {
+      html > body > header > div.social > a:hover {
         background-color: red; }
 
-html body .clearfix {
+html > body .clearfix {
   display: inline-block;
   display: block; }
-  html body .clearfix:after {
+  html > body .clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
     content: " ";
     clear: both;
     height: 0; }
-html body .hidden {
+html > body .hidden {
   display: none !important; }
-html body .invisible {
+html > body .invisible {
   opacity: 0; }
 
-div.modal {
+html > body > div.modal {
   position: absolute;
   top: 0;
   right: 0;
@@ -100,7 +100,7 @@ div.modal {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: all 200ms; }
-  div.modal div.content {
+  html > body > div.modal > div.content {
     background-color: #ffffff;
     border-radius: 4px;
     width: 70%;
@@ -108,7 +108,7 @@ div.modal {
     position: relative;
     transform: scale(0.9);
     transition: all 200ms; }
-    div.modal div.content a.close {
+    html > body > div.modal > div.content > a.close {
       text-decoration: none;
       position: absolute;
       top: 4px;
@@ -120,33 +120,33 @@ div.modal {
       text-align: center;
       color: #c2c2c2;
       transition: all 150ms linear; }
-      div.modal div.content a.close:hover {
+      html > body > div.modal > div.content > a.close:hover {
         color: #514E4E;
         transform: rotate(90deg); }
-    div.modal div.content h1 {
+    html > body > div.modal > div.content > h1 {
       font-weight: 700;
       font-size: 19px;
       line-height: 1.25em; }
-      div.modal div.content h1 sup {
+      html > body > div.modal > div.content > h1 > sup {
         top: -1.1em;
         font-size: 10px;
         letter-spacing: 0.7px;
         color: rgba(0, 0, 0, 0.5);
         padding: 0 0 0 4px; }
-    div.modal div.content p {
+    html > body > div.modal > div.content > p {
       font-size: 13px;
       line-height: 1.5em;
       color: #1a1a1a; }
-      div.modal div.content p a {
+      html > body > div.modal > div.content > p > a {
         color: #1a1a1a; }
-        div.modal div.content p a:hover {
+        html > body > div.modal > div.content > p > a:hover {
           color: #6676fb; }
-    div.modal div.content hr {
+    html > body > div.modal > div.content > hr {
       height: 1px;
       border: none;
       margin: 8px 0 8px 0;
       background-color: rgba(127, 127, 127, 0.2); }
-    div.modal div.content div.ingos a {
+    html > body > div.modal > div.content > div.ingos > a {
       display: block;
       float: left;
       width: 154px;
@@ -156,11 +156,11 @@ div.modal {
       background-position: center center;
       opacity: 0.8;
       transition: all 125ms; }
-      div.modal div.content div.ingos a:hover {
+      html > body > div.modal > div.content > div.ingos > a:hover {
         opacity: 1.0; }
-  div.modal.showing {
+  html > body > div.modal.showing {
     opacity: 1.0; }
-    div.modal.showing div.content {
+    html > body > div.modal.showing > div.content {
       transform: scale(1); }
 
 /**
@@ -168,7 +168,7 @@ div.modal {
  * 
  * @see     http://www.cssarrowplease.com/
  */
-div.tooltip {
+html > body div.tooltip {
   display: none;
   position: absolute;
   background: #000000;
@@ -180,26 +180,26 @@ div.tooltip {
   padding: 5px 10px 5px 10px;
   left: 0;
   top: 0; }
-  div.tooltip div.chevron {
+  html > body div.tooltip > div.chevron {
     position: relative;
     background: #000000; }
-  div.tooltip[direction="right"] div.chevron {
+  html > body div.tooltip[direction="right"] > div.chevron {
     left: -7px;
     top: 6px; }
-  div.tooltip[direction="right"] div.chevron:after {
-    right: 100%;
-    top: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(0, 0, 0, 0);
-    border-right-color: #000000;
-    border-width: 8px;
-    margin-top: -8px; }
-  div.tooltip[direction="down"] div.chevron:after {
+    html > body div.tooltip[direction="right"] > div.chevron:after {
+      right: 100%;
+      top: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-color: rgba(0, 0, 0, 0);
+      border-right-color: #000000;
+      border-width: 8px;
+      margin-top: -8px; }
+  html > body div.tooltip[direction="down"] > div.chevron:after {
     bottom: 100%;
     left: 50%;
     border: solid transparent;
@@ -212,7 +212,7 @@ div.tooltip {
     border-bottom-color: #000000;
     border-width: 8px;
     margin-left: -8px; }
-  div.tooltip[direction="left"] div.chevron:after {
+  html > body div.tooltip[direction="left"] > div.chevron:after {
     left: 100%;
     top: 50%;
     border: solid transparent;
@@ -225,18 +225,18 @@ div.tooltip {
     border-left-color: #000000;
     border-width: 8px;
     margin-top: -8px; }
-  div.tooltip div.content {
+  html > body div.tooltip > div.content {
     position: relative;
     top: -1px;
     font-size: 11px; }
 
 html {
   width: 440px; }
-  html body > div.content {
+  html > body > div.content {
     position: relative;
     height: 480px;
     overflow: hidden; }
-    html body > div.content div.loader {
+    html > body > div.content > div.loader {
       background-color: red;
       position: absolute;
       top: 0;
@@ -245,12 +245,12 @@ html {
       left: 0;
       display: grid;
       place-items: center center; }
-      html body > div.content div.loader > div.media div.graphic {
+      html > body > div.content > div.loader > div.media > div.graphic {
         margin: 0 auto 0 auto;
         width: 80px;
         height: 80px;
         transition: all 200ms; }
-        html body > div.content div.loader > div.media div.graphic div.media {
+        html > body > div.content > div.loader > div.media > div.graphic > div.media {
           width: 80px;
           height: 80px;
           background-position: center center;
@@ -260,7 +260,7 @@ html {
           animation-duration: 4200ms;
           animation-iteration-count: infinite;
           animation-timing-function: linear; }
-      html body > div.content div.loader > div.media div.copy {
+      html > body > div.content > div.loader > div.media > div.copy {
         color: #ffffff;
         width: 80%;
         margin: 12px auto 0 auto;
@@ -270,21 +270,21 @@ html {
         line-height: 1.5em;
         font-style: italic;
         transition: all 200ms; }
-    html body > div.content div.podcasts {
+    html > body > div.content > div.podcasts {
       overflow: hidden;
       height: inherit;
       background-color: #f8f8f8;
       background-color: #f7f7f7; }
-      html body > div.content div.podcasts nav {
+      html > body > div.content > div.podcasts > nav {
         float: left;
         width: 56px;
         background-color: #2C2C2C;
         height: inherit; }
-        html body > div.content div.podcasts nav > div {
+        html > body > div.content > div.podcasts > nav > div {
           position: relative;
           padding: 4px 0 4px 0;
           padding: 10px 0 10px 0; }
-          html body > div.content div.podcasts nav > div div.thumb {
+          html > body > div.content > div.podcasts > nav > div > div.thumb {
             height: 48px;
             width: 48px;
             margin: 0 auto 0 auto;
@@ -298,7 +298,7 @@ html {
             width: 28px;
             border-radius: 100px;
             background-size: 100%; }
-          html body > div.content div.podcasts nav > div div.badge {
+          html > body > div.content > div.podcasts > nav > div > div.badge {
             background-color: red;
             border-radius: 100px;
             height: 9px;
@@ -308,15 +308,15 @@ html {
             right: 11px;
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
             transition: all 200ms; }
-            html body > div.content div.podcasts nav > div div.badge.secondary {
+            html > body > div.content > div.podcasts > nav > div > div.badge.secondary {
               background-color: red; }
-          html body > div.content div.podcasts nav > div div.chevron {
+          html > body > div.content > div.podcasts > nav > div > div.chevron {
             background: #2C2C2C;
             display: none;
             position: absolute;
             right: 3px;
             top: 50%; }
-            html body > div.content div.podcasts nav > div div.chevron:after {
+            html > body > div.content > div.podcasts > nav > div > div.chevron:after {
               left: 100%;
               top: 50%;
               border: solid transparent;
@@ -329,47 +329,46 @@ html {
               border-left-color: #2C2C2C;
               border-width: 8px;
               margin-top: -8px; }
-          html body > div.content div.podcasts nav > div:hover {
+          html > body > div.content > div.podcasts > nav > div:hover {
             cursor: pointer; }
-          html body > div.content div.podcasts nav > div.active div.thumb, html body > div.content div.podcasts nav > div:hover div.thumb {
+          html > body > div.content > div.podcasts > nav > div.active > div.thumb, html > body > div.content > div.podcasts > nav > div:hover > div.thumb {
             transform: scale(1.2) rotate(3deg);
             opacity: 1.0;
             filter: grayscale(0%); }
-          html body > div.content div.podcasts nav > div.active div.chevron {
+          html > body > div.content > div.podcasts > nav > div.active > div.chevron {
             display: block; }
-      html body > div.content div.podcasts div.podcasts {
+      html > body > div.content > div.podcasts > div.podcasts {
         float: left;
         width: 384px;
-        background-color: #f8f8f8;
-        background-color: #f7f7f7; }
-        html body > div.content div.podcasts div.podcasts div.podcast {
+        background-color: red; }
+        html > body > div.content > div.podcasts > div.podcasts > div.podcast {
           padding: 12px 12px 12px 16px;
           height: inherit;
           overflow: hidden;
           box-sizing: border-box; }
-          html body > div.content div.podcasts div.podcasts div.podcast div.empty {
+          html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty {
             display: grid;
             place-items: center center;
             height: 100%; }
-            html body > div.content div.podcasts div.podcasts div.podcast div.empty div.copy {
+            html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy {
               padding: 0 16px 0 16px;
               text-align: center; }
-              html body > div.content div.podcasts div.podcasts div.podcast div.empty div.copy p {
+              html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p {
                 font-size: 15px;
                 line-height: 1.5em;
                 color: #1a1a1a; }
-                html body > div.content div.podcasts div.podcasts div.podcast div.empty div.copy p a {
+                html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a {
                   color: #1a1a1a; }
-                  html body > div.content div.podcasts div.podcasts div.podcast div.empty div.copy p a:hover {
+                  html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
                     color: #6676fb; }
-          html body > div.content div.podcasts div.podcasts div.podcast div.episodes {
+          html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes {
             overflow: auto;
             max-height: 100%; }
-            html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode {
+            html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode {
               padding: 0 0 16px 0; }
-              html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a {
+              html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a {
                 transition: all 85ms; }
-                html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.media {
+                html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.media {
                   float: left;
                   width: 100px;
                   height: 66px;
@@ -377,18 +376,18 @@ html {
                   background-position: center center;
                   background-size: cover;
                   opacity: 0.9; }
-                html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details {
+                html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details {
                   float: left;
                   padding: 4px 12px 0 12px;
                   width: calc(100% - 100px - 12px - 12px); }
-                  html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.title {
+                  html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.title {
                     color: #1a1a1a;
                     font-weight: 700;
                     font-size: 17.5px;
                     line-height: 1.2em;
                     float: left;
                     transition: all 85ms; }
-                  html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp {
+                  html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.timestamp {
                     clear: left;
                     background-color: rgba(45, 45, 45, 0.2);
                     color: #ffffff;
@@ -399,28 +398,28 @@ html {
                     color: #2D2D2D;
                     float: left;
                     margin: 4px 0 0 0; }
-                    html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight {
+                    html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.timestamp.highlight {
                       background-color: red;
                       color: #ffffff;
                       font-weight: 700;
                       animation: shake 1000ms; }
-                      html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight.secondary {
+                      html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.timestamp.highlight.secondary {
                         background-color: rgba(255, 0, 0, 0.7); }
-                html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.media {
+                html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a:hover div.media {
                   opacity: 1.0; }
-                html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.details div.title {
+                html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a:hover div.details div.title {
                   color: red; }
-            html body > div.content div.podcasts div.podcasts div.podcast div.episodes::-webkit-scrollbar {
+            html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes::-webkit-scrollbar {
               -webkit-appearance: none;
               width: 6px;
               background-color: #dddddd;
               border-radius: 100px; }
-            html body > div.content div.podcasts div.podcasts div.podcast div.episodes::-webkit-scrollbar-thumb {
+            html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes::-webkit-scrollbar-thumb {
               border-radius: 100px;
               background-color: #bbbbbb; }
-            html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more {
+            html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes > div.more {
               margin: 12px 0 0 0; }
-              html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
+              html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes > div.more > a {
                 background-color: #555555;
                 color: #E3E2DE;
                 display: block;
@@ -441,6 +440,6 @@ html {
                 color: #333333;
                 text-transform: uppercase;
                 font-weight: 900; }
-                html body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a:hover {
+                html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes > div.more > a:hover {
                   background-color: #E2E2E2;
                   color: rgba(51, 51, 51, 0.7); }

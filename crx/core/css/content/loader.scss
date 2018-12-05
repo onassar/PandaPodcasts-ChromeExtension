@@ -1,4 +1,4 @@
-div.loader {
+> div.loader {
     background-color: red;
     position: absolute;
     top: 0;
@@ -10,13 +10,13 @@ div.loader {
 
     > div.media {
 
-        div.graphic {
+        > div.graphic {
             margin: 0 auto 0 auto;
             width: 80px;
             height: 80px;
             transition: all 200ms;
 
-            div.media {
+            > div.media {
                 width: 80px;
                 height: 80px;
                 background-position: center center;
@@ -29,7 +29,7 @@ div.loader {
             }
         }
 
-        div.copy {
+        > div.copy {
             color: #ffffff;
             width: 80%;
             margin: 12px auto 0 auto;

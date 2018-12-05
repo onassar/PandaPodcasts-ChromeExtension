@@ -1,14 +1,14 @@
 html {
 
-    body {
+    > body {
 
-        footer {
+        > footer {
             height: $footerHeight;
             border-top: 1px solid #dddddd;
             background-color: #ffffff;
             padding: 0 12px 0 0;
 
-            a {
+            > a {
                 display: block;
                 float: right;
                 color: #1a1a1a;
@@ -23,7 +23,7 @@ html {
                 }
             }
 
-            div.divider {
+            > div.divider {
                 display: block;
                 float: right;
                 height: $footerHeight;

@@ -13,7 +13,7 @@ $footerHeight: 28px;
 html {
     width: $width;
 
-    body {
+    > body {
 
         > div.content {
             position: relative;
@@ -21,7 +21,7 @@ html {
             overflow: hidden;
             @import 'content/loader';
 
-            div.podcasts {
+            > div.podcasts {
                 overflow: hidden;
                 height: inherit;
                 background-color: #f8f8f8;
