@@ -75,7 +75,7 @@ window.PandaPodcastsBackground = (function() {
         var manifest = SettingsUtils.getManifest(),
             shortName = manifest.short_name,
             host = 'github.com',
-            path = '/onassar/PandaProjects-ChromeExtension/crx/apps/' + (shortName) + '/docs/installed.md',
+            path = '/onassar/PandaPodcasts-ChromeExtension/blob/master/crx/apps/' + (shortName) + '/docs/installed.md',
             url = 'https://' + (host) + (path);
         chrome.tabs.create({
             url: url
