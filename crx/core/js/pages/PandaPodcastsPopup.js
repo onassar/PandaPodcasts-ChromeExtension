@@ -16,6 +16,14 @@ window.PandaPodcastsPopup = (function() {
     var __collections = {};
 
     /**
+     * __view
+     * 
+     * @access  private
+     * @var     null|PopupPageView (default: null)
+     */
+    var __view = null;
+
+    /**
      * Methods
      * 
      */
