@@ -105,8 +105,8 @@ window.DependencyLoader.push(['BaseView'], function() {
             $element.removeClass('hidden');
             var episodes = this._podcast.getEpisodes();
             if (episodes.length() === 0) {
-                var $empty = this._element.find('div.empty'),
-                    $episodes = this._element.find('div.episodes');
+                var $empty = this.find('div.empty'),
+                    $episodes = this.find('div.episodes');
                 $empty.removeClass('hidden');
                 $episodes.addClass('hidden');
             }

@@ -63,7 +63,7 @@ window.DependencyLoader.push(['BaseView'], function() {
          * @return  void
          */
         _addAboutListener: function() {
-            this.find('[lookup="about"]').on({
+            this.lookup('about').on({
                 'click': function(event) {
                     event.preventDefault();
                     var $element = DataUtils.render('AboutModal');

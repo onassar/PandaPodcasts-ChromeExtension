@@ -36,8 +36,9 @@ window.DependencyLoader.push(['BaseView'], function() {
          */
         _setSocialLink: function(network) {
             var $element = this.lookup(network),
-                links = SettingsUtils.get('social'),
-                link = links[network];
+                links = SettingsUtils.get('links'),
+                social = links.social,
+                link = social[network];
             $element.attr('href', link);
         },
 

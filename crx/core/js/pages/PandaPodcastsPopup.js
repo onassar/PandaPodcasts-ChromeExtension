@@ -220,7 +220,7 @@ window.PandaPodcastsPopup = (function() {
      * @return  Promise
      */
     var __sleep = function() {
-        var delay = SettingsUtils.getLoadingScreenSleepDelay(),
+        var delay = SettingsUtils.getLoadingScreenMinDelay(),
             promise = new Promise(function(resolve, reject) {
                 setTimeout(function() {
                     resolve();

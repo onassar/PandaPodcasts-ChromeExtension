@@ -76,7 +76,13 @@
             "gitHub": {
                 "repository": "https://github.com/onassar/PandaPodcasts-ChromeExtension"
             },
-            "homepage": "https://www.nytimes.com/spotlight/podcasts?utm_source=nytimes-podcasts-unofficial-chrome-extension&utm_medium=Panda%20Podcasts%20Unofficial%20Chrome%20Extension"
+            "homepage": "https://www.nytimes.com/spotlight/podcasts",
+            "social": {
+                "facebook": "https://www.facebook.com/nytimes/",
+                "twitter": "https://twitter.com/nytimes",
+                "instagram": "https://www.instagram.com/nytimes/",
+                "youTube": "https://www.youtube.com/user/TheNewYorkTimes"
+            }
         }
     },
     {
@@ -90,14 +96,14 @@
         ]
     },
     {
-        "key": "loadingScreenSleepDelay",
+        "key": "loadingScreenMinDelay",
         "roles": [
             "development"
         ],
         "value": 0
     },
     {
-        "key": "loadingScreenSleepDelay",
+        "key": "loadingScreenMinDelay",
         "roles": [
             "production"
         ],
@@ -125,19 +131,6 @@
             "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/facts.json",
             "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/podcasts.json",
             "proxy": "https://getstencil.com/utils/proxy"
-        }
-    },
-    {
-        "key": "social",
-        "roles": [
-            "development",
-            "production"
-        ],
-        "value": {
-            "facebook": "https://www.facebook.com/nytimes/",
-            "twitter": "https://twitter.com/nytimes",
-            "instagram": "https://www.instagram.com/nytimes/",
-            "youTube": "https://www.youtube.com/user/TheNewYorkTimes"
         }
     },
     {

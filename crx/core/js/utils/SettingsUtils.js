@@ -171,13 +171,13 @@ window.SettingsUtils = (function() {
         },
 
         /**
-         * getLoadingScreenSleepDelay
+         * getLoadingScreenMinDelay
          * 
          * @access  public
          * @var     Number
          */
-        getLoadingScreenSleepDelay: function() {
-            var delay = __getSettingValueByKey('loadingScreenSleepDelay');
+        getLoadingScreenMinDelay: function() {
+            var delay = __getSettingValueByKey('loadingScreenMinDelay');
             return delay;
         },
 

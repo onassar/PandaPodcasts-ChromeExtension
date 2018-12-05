@@ -46,8 +46,7 @@ window.DependencyLoader.push(['BaseView'], function() {
          */
         _addCloseAnchorListener: function() {
             var _this = this,
-                $element = this._element,
-                $anchor = $element.find('[lookup="close"]');
+                $anchor = this.lookup('close');
             $anchor.on({
                 'click': function(event) {
                     event.preventDefault();
