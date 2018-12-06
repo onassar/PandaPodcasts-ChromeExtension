@@ -1,0 +1,112 @@
+
+/**
+ * /apps/crooked/css/popup.css
+ * 
+ */
+@import './fonts.css';
+html {
+    font-family: Arial;
+}
+
+/**
+ * Header
+ * 
+ */
+html > body > header a.logo {
+    width: 90px;
+    height: 32px;
+    background-image: url('/apps/crooked/images/logos/full-362x130.png');
+    background-color: transparent;
+    margin: calc((64px - 32px) / 2) 0 0 16px;
+}
+html > body > header a.logo:hover {
+    transform: scale(1.15) rotate(-3deg);
+}
+html > body > header div.social a:hover {
+    background-color: #feea37;
+    color: #1a1a1a;
+}
+
+/**
+ * Loader
+ * 
+ */
+html > body > div.content div.loader {
+    background-color: #2c2c2c;
+}
+html > body > div.content div.loader > div.media div.copy {
+    font-family: 'GTAmerica-Regular';
+}
+html > body > div.content div.loader > div.media div.graphic div.media {
+    /*border-radius: 100px;*/
+}
+
+/**
+ * Podcasts content
+ * 
+ */
+html > body > div.content > div.podcasts > div.podcasts {
+    background-color: #f7f7f7;
+}
+html > body > div.content div.podcasts nav {
+    background-color: #2c2c2c;
+}
+html > body > div.content div.podcasts nav > div > div.badge {
+    background-color: #f32e66;
+}
+html > body > div.content div.podcasts nav > div > div.badge.secondary {
+    background-color: #f56a92;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.empty div.copy p {
+    font-family: 'LyonText-Regular';
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
+    font-family: 'GTAmerica-CompressedBold';
+    background-color: #555555;
+    border-color: #555555;
+    color: #e3e2de;
+    border-radius: 0px;
+    font-size: 19px;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a:hover {
+    background-color: #555555;
+    color: #1a1a1a;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.title {
+    font-family: 'GTAmerica-CompressedBold';
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight {
+    background-color: #f62964;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight.secondary {
+    background-color: #f62964;
+    opacity: 0.7;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.details div.title {
+    color: #f92361;
+}
+
+/**
+ * Footer
+ * 
+ */
+html > body > footer > a {
+    font-family: 'GTAmericaMono-Bold';
+}
+html > body > footer > a:hover {
+    color: #6676fb;
+}
+
+/**
+ * Modals
+ * 
+ */
+html > body > div.modal div.content h1 {
+    font-family: 'GTAmerica-CompressedBold';
+}
+html > body > div.modal div.content h1 sup {
+    font-family: 'GTAmerica-Medium';
+}
+html > body > div.modal div.content p {
+    font-family: 'LyonText-Regular';
+}

@@ -27,7 +27,7 @@ html > body > footer {
     line-height: 28px;
     font-size: 11px; }
     html > body > footer > a:hover {
-      color: #6676fb; }
+      color: red; }
   html > body > footer > div.divider {
     display: block;
     float: right;
@@ -43,11 +43,13 @@ html > body > header {
   html > body > header > a.logo {
     display: block;
     float: left;
-    width: 162.9px;
+    width: 24px;
     height: 24px;
+    background-color: red;
     background-size: contain;
-    margin: 20px 0 0 19px;
-    transition: all 150ms; }
+    margin: calc(($headerHeight - 24px) / 2) 0 0 20px;
+    transition: all 150ms;
+    background-repeat: no-repeat; }
   html > body > header > div.social {
     float: right;
     height: 64px;
@@ -271,12 +273,11 @@ html {
     html > body > div.content > div.podcasts {
       overflow: hidden;
       height: inherit;
-      background-color: #f8f8f8;
-      background-color: #f7f7f7; }
+      background-color: transparent; }
       html > body > div.content > div.podcasts > nav {
         float: left;
         width: 56px;
-        background-color: #2C2C2C;
+        background-color: red;
         height: inherit; }
         html > body > div.content > div.podcasts > nav > div {
           position: relative;
@@ -294,7 +295,6 @@ html {
             transition: all 150ms;
             height: 28px;
             width: 28px;
-            border-radius: 100px;
             background-size: 100%; }
           html > body > div.content > div.podcasts > nav > div > div.badge {
             background-color: red;
@@ -423,8 +423,6 @@ html {
                 color: white;
                 display: block;
                 transition: all 75ms;
-                font-size: 20px;
-                line-height: 1.3em;
                 width: 120px;
                 margin: 0 auto 0 auto;
                 text-decoration: none;

@@ -1,0 +1,380 @@
+[
+    {
+        "key": "23andme",
+        "name": "23andMe",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/23andme.png"
+    },
+    {
+        "key": "audible",
+        "name": "Audible",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/audible.png"
+    },
+    {
+        "key": "betterment",
+        "name": "Betterment",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/betterment.png"
+    },
+    {
+        "key": "blindsdotcom",
+        "name": "Blinds.com",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/blindsdotcom.jpeg"
+    },
+    {
+        "key": "blueapron",
+        "name": "Blue Apron",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/blueapron.png"
+    },
+    {
+        "key": "burrow",
+        "name": "burrow",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/burrow.jpg"
+    },
+    {
+        "key": "cashapp",
+        "name": "cashapp",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/cashapp.png"
+    },
+    {
+        "key": "everlane",
+        "name": "everlane",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/everlane.png"
+    },
+    {
+        "key": "expressvpn",
+        "name": "expressvpn",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/expressvpn.png"
+    },
+    {
+        "key": "flatironschool",
+        "name": "flatironschool",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/flatironschool.png"
+    },
+    {
+        "key": "framebridge",
+        "name": "framebridge",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/framebridge.png"
+    },
+    {
+        "key": "ft",
+        "name": "ft",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/ft.jpg"
+    },
+    {
+        "key": "plus",
+        "name": "plus",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/great-courses-plus.png"
+    },
+    {
+        "key": "harrys",
+        "name": "harrys",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/harrys.png"
+    },
+    {
+        "key": "sauce",
+        "name": "sauce",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/heat-hot-sauce.png"
+    },
+    {
+        "key": "honey",
+        "name": "honey",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/honey.jpg"
+    },
+    {
+        "key": "honeywell",
+        "name": "honeywell",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/honeywell.png"
+    },
+    {
+        "key": "hubble",
+        "name": "hubble",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/hubble.png"
+    },
+    {
+        "key": "indochino",
+        "name": "indochino",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/indochino.jpg"
+    },
+    {
+        "key": "lumosity",
+        "name": "lumosity",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/lumosity.png"
+    },
+    {
+        "key": "mattressfirm",
+        "name": "mattressfirm",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/mattressfirm.jpg"
+    },
+    {
+        "key": "molecule",
+        "name": "molecule",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/molecule.jpeg"
+    },
+    {
+        "key": "morningrecovery",
+        "name": "morningrecovery",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/morningrecovery.png"
+    },
+    {
+        "key": "msf",
+        "name": "msf",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/msf.png"
+    },
+    {
+        "key": "mvmt",
+        "name": "mvmt",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/mvmt.jpg"
+    },
+    {
+        "key": "nord",
+        "name": "nord",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/nord.png"
+    },
+    {
+        "key": "oatly",
+        "name": "oatly",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/oatly.png"
+    },
+    {
+        "key": "Steaks",
+        "name": "Steaks",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/Omaha-Steaks.jpg"
+    },
+    {
+        "key": "parachute",
+        "name": "parachute",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/parachute.jpg"
+    },
+    {
+        "key": "peloton",
+        "name": "peloton",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/peloton.png"
+    },
+    {
+        "key": "Phlur",
+        "name": "Phlur",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/Phlur.jpg"
+    },
+    {
+        "key": "quip",
+        "name": "quip",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/quip.png"
+    },
+    {
+        "key": "ridgewallets",
+        "name": "ridgewallets",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/ridgewallets.png"
+    },
+    {
+        "key": "ritual",
+        "name": "ritual",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/ritual.jpg"
+    },
+    {
+        "key": "seatgeek",
+        "name": "seatgeek",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/seatgeek.png"
+    },
+    {
+        "key": "simplecontacts",
+        "name": "simplecontacts",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/simplecontacts.png"
+    },
+    {
+        "key": "simplisafe",
+        "name": "simplisafe",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/simplisafe.png"
+    },
+    {
+        "key": "sixpenny",
+        "name": "sixpenny",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/sixpenny.jpg"
+    },
+    {
+        "key": "skillshare",
+        "name": "skillshare",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/skillshare.jpg"
+    },
+    {
+        "key": "sleepnumber",
+        "name": "sleepnumber",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/sleepnumber.jpg"
+    },
+    {
+        "key": "sonos",
+        "name": "sonos",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/sonos.png"
+    },
+    {
+        "key": "spotify",
+        "name": "spotify",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/spotify.png"
+    },
+    {
+        "key": "squarespace",
+        "name": "squarespace",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/squarespace.jpeg"
+    },
+    {
+        "key": "stitchfix",
+        "name": "stitchfix",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/stitchfix.jpg"
+    },
+    {
+        "key": "basket",
+        "name": "basket",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/sun-basket.jpg"
+    },
+    {
+        "key": "swell",
+        "name": "swell",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/swell.png"
+    },
+    {
+        "key": "texture",
+        "name": "texture",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/texture.png"
+    },
+    {
+        "key": "theblacktux",
+        "name": "theblacktux",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/theblacktux.jpeg"
+    },
+    {
+        "key": "thirdlove",
+        "name": "thirdlove",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/thirdlove.png"
+    },
+    {
+        "key": "tommyjohn",
+        "name": "tommyjohn",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/tommyjohn.png"
+    },
+    {
+        "key": "tripping",
+        "name": "tripping",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/tripping.png"
+    },
+    {
+        "key": "upside",
+        "name": "upside",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/upside.png"
+    },
+    {
+        "key": "victorious",
+        "name": "victorious",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/victorious.png"
+    },
+    {
+        "key": "recruiter",
+        "name": "recruiter",
+        "link": "https://crooked.com/",
+        "coupon": null,
+        "thumb": "/apps/crooked/images/sponsors/zip-recruiter.jpg"
+    }
+]

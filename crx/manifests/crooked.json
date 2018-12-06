@@ -47,8 +47,8 @@
     "browser_action": {
         "default_title": "Pod Save America & Crooked Media",
         "default_icon": {
-            "19": "/apps/crooked/images/logos/favicon-white-19x19.png",
-            "38": "/apps/crooked/images/logos/favicon-white-38x38.png"
+            "19": "/apps/crooked/images/logos/favicon-transparent-19x19.png",
+            "38": "/apps/crooked/images/logos/favicon-transparent-38x38.png"
         },
         "default_popup": "/apps/crooked/pages/popup.html"
     },
@@ -62,9 +62,9 @@
         "https://raw.githubusercontent.com/"
     ],
     "icons": {
-        "16": "/apps/crooked/images/logos/favicon-white-16x16.png",
-        "48": "/apps/crooked/images/logos/favicon-white-48x48.png",
-        "128": "/apps/crooked/images/logos/favicon-white-128x128.png"
+        "16": "/apps/crooked/images/logos/favicon-transparent-16x16.png",
+        "48": "/apps/crooked/images/logos/favicon-transparent-48x48.png",
+        "128": "/apps/crooked/images/logos/favicon-transparent-128x128.png"
     },
     "web_accessible_resources": [
         "/apps/crooked/files/*",

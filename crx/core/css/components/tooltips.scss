@@ -25,7 +25,7 @@ html {
 
             > div.chevron {
                 position: relative;
-                background: #000000;
+                background: $backgroundColor;
             }
 
             &[direction="right"] {
@@ -44,7 +44,7 @@ html {
                         position: absolute;
                         pointer-events: none;
                         border-color: rgba(0, 0, 0, 0);
-                        border-right-color: #000000;
+                        border-right-color: $backgroundColor;
                         border-width: 8px;
                         margin-top: -8px;
                     }
@@ -63,7 +63,7 @@ html {
                     position: absolute;
                     pointer-events: none;
                     border-color: rgba(0, 0, 0, 0);
-                    border-bottom-color: #000000;
+                    border-bottom-color: $backgroundColor;
                     border-width: 8px;
                     margin-left: -8px;
                 }
@@ -81,7 +81,7 @@ html {
                     position: absolute;
                     pointer-events: none;
                     border-color: rgba(0, 0, 0, 0);
-                    border-left-color: #000000;
+                    border-left-color: $backgroundColor;
                     border-width: 8px;
                     margin-top: -8px;
                 }

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'GTAmerica-CompressedBold';
+    src: url('/apps/crooked/fonts/GTAmerica-CompressedBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GTAmerica-Medium';
+    src: url('/apps/crooked/fonts/GTAmerica-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GTAmerica-Regular';
+    src: url('/apps/crooked/fonts/GTAmerica-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GTAmericaMono-Bold';
+    src: url('/apps/crooked/fonts/GTAmericaMono-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'LyonText-Regular';
+    src: url('/apps/crooked/fonts/LyonText-Regular.woff') format('woff');
+}

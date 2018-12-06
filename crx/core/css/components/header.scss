@@ -11,11 +11,13 @@ html {
             > a.logo {
                 display: block;
                 float: left;
-                width: 162.9px;
+                width: 24px;
                 height: 24px;
+                background-color: red;
                 background-size: contain;
-                margin: 20px 0 0 19px;
+                margin: calc(($headerHeight - 24px) / 2) 0 0 20px;
                 transition: all 150ms;
+                background-repeat: no-repeat;
             }
 
             > div.social {
