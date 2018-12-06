@@ -20,8 +20,9 @@ The feature set is basic for now, and includes:
 
 ### Screenshots
 Here are some screenshots of what the UI looks like in Chrome:  
-<img src="https://i.imgur.com/dtG6aNv.png" width="400" />
+<img src="https://i.imgur.com/04HjnE3.png" width="400" />
 <img src="https://i.imgur.com/rHSbVbL.png" width="400" />
+<!--<img src="https://i.imgur.com/dtG6aNv.png" width="400" />-->
 
 ### Bugs
 If you run into any bugs, please follow one of the following steps:
