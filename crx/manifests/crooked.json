@@ -2,7 +2,7 @@
     "name": "Pod Save America & Crooked Media",
     "short_name": "crooked",
     "description": "Keep up with all the Pod Save America & Crooked Media episodes and updates!",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "author": "Oliver Nassar",
     "manifest_version": 2,
     "background": {
@@ -37,6 +37,7 @@
             "/core/js/utils/DTUtils.js",
             "/core/js/utils/ImageUtils.js",
             "/core/js/utils/LogUtils.js",
+            "/core/js/utils/NotificationUtils.js",
             "/core/js/utils/NumberUtils.js",
             "/core/js/utils/RequestUtils.js",
             "/core/js/utils/SettingsUtils.js",

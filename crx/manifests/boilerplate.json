@@ -37,6 +37,7 @@
             "/core/js/utils/DTUtils.js",
             "/core/js/utils/ImageUtils.js",
             "/core/js/utils/LogUtils.js",
+            "/core/js/utils/NotificationUtils.js",
             "/core/js/utils/NumberUtils.js",
             "/core/js/utils/RequestUtils.js",
             "/core/js/utils/SettingsUtils.js",

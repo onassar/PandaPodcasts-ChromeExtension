@@ -18,3 +18,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 - Fixed bug where icon wasn't showing up in Chrome Webstore listing due to
 referencing the image absolutely (eg. leading forward slash) rather than a
 relative image path (weird..)
+
+## [2.0.2] - 2018-12-06
+### Minor update
+- Remove unnecessary permissions
+
+## [2.0.3] - 2018-12-06
+### Minor update
+- `NotificationUtils` inclusion (for future)
