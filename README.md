@@ -39,5 +39,5 @@ Feel free to submit a Pull Request (PR) if you have any fixes or contributions
 you'd like to make.
 
 ### Thank You
-[The New York Times Wikipedia Page](https://en.wikipedia.org/wiki/The_New_York_Times)
+[The New York Times Wikipedia Page](https://en.wikipedia.org/wiki/The_New_York_Times)  
 [American History 100 Facts](http://w3.gilmerisd.org/Docs/100Facts.htm)
