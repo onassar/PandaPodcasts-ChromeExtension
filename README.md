@@ -1,25 +1,22 @@
-# NYTimesPodcasts-ChromeExtension
-This repository contains the code for the [The New York Times Podcasts](https://www.nytimes.com/spotlight/podcasts)
-(including The Daily)
-[Chrome Extension](https://chrome.google.com/webstore/detail/nytimes-podcasts-includin/leimmikdkodgbaimglohhceidbooddma)
-I built.
+# PandaPodcasts-ChromeExtension
+This repository contains the code for the two podcast Chrome Extensions I've
+created:
+- [Crooked Media](https://chrome.google.com/webstore/detail/pod-save-america-crooked/goeelkadlndllemolbmfjbaeaakipoai)
+- [The New York Times Podcasts](https://chrome.google.com/webstore/detail/the-new-york-times-podcas/leimmikdkodgbaimglohhceidbooddma)
 
 ### Disclosure
-This Chrome Extension is not affiliated with, or supported by,
-[The New York Times](https://nytimes.com/). Rather, it's an extension I built as
-a fan of the podcasts, and as a way to keep up on new episodes.
+The Chrome Extensions are not affiliate or supported by the respective
+companies. Rather, they're podcasts I'm a fan of, and I wanted a way to keep up
+with them (and hopefully support them).
 
 ### About
-This Chrome Extension is designed to make it easier for me (and others) to stay
-up to date on new episodes of the various [NYTimes Podcasts](https://www.nytimes.com/spotlight/podcasts) podcasts.
-
 The feature set is basic for now, and includes:
-- Links to the [The New York Times](https://www.nytimes.com/) social media channels
-- A list of the [The New York Times podcasts](https://www.nytimes.com/spotlight/podcasts)
+- Links to the respective social media channels
+- A list of the company's podcasts
 - The last 5 to 10 episodes for each podcast
 - Links to view more episodes for each podcast
 - An About modal, giving information and context on the Chrome Extension
-- Random NYTimes historical facts upon loading
+- Random facts upon loading
 
 ### Screenshots
 Here are some screenshots of what the UI looks like in Chrome:  
@@ -29,12 +26,12 @@ Here are some screenshots of what the UI looks like in Chrome:
 ### Bugs
 If you run into any bugs, please follow one of the following steps:
 1. File an issue here:
-[https://github.com/onassar/NYTimesPodcasts-ChromeExtension/issues](https://github.com/onassar/NYTimesPodcasts-ChromeExtension/issues)
+[https://github.com/onassar/PandaPodcasts-ChromeExtension/issues](https://github.com/onassar/PandaPodcasts-ChromeExtension/issues)
 2. Email me directly: [onassar@gmail.com](mailto:onassar@gmail.com)
 
 ### Roadmap
 The roadmap is (currently) defined here:  
-[https://github.com/onassar/NYTimesPodcasts-ChromeExtension/projects](https://github.com/onassar/NYTimesPodcasts-ChromeExtension/projects)
+[https://github.com/onassar/PandaPodcasts-ChromeExtension/projects](https://github.com/onassar/PandaPodcasts-ChromeExtension/projects)
 
 ### Contributions
 Feel free to submit a Pull Request (PR) if you have any fixes or contributions
@@ -42,3 +39,4 @@ you'd like to make.
 
 ### Thank You
 [The New York Times Wikipedia Page](https://en.wikipedia.org/wiki/The_New_York_Times)
+[American History 100 Facts](http://w3.gilmerisd.org/Docs/100Facts.htm)
