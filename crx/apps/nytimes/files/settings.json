@@ -154,9 +154,9 @@
             "production"
         ],
         "value": {
-            "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/copy.json",
-            "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/facts.json",
-            "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/files/podcasts.json",
+            "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/nytimes/files/copy.json",
+            "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/nytimes/files/facts.json",
+            "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/nytimes/files/podcasts.json",
             "proxy": "https://getstencil.com/utils/proxy"
         }
     },
@@ -181,13 +181,13 @@
             "production"
         ],
         "value": [
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/episode.html",
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/nav.html",
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/navItem.html",
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/podcast.html",
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/podcasts.html",
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/components/tooltip.html",
-            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/core/templates/modals/about.html"
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/episode.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/nav.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/navItem.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/podcast.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/podcasts.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/tooltip.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/modals/about.html"
         ]
     }
 ]
