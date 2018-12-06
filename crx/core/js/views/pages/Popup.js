@@ -107,7 +107,6 @@ window.DependencyLoader.push(['BaseView'], function() {
         _setupHeader: function() {
             var $header = this.find('header');
             this._header = new HeaderView($header);
-            this._header.show.social.apply(this._header);
         },
 
         /**
@@ -188,6 +187,7 @@ window.DependencyLoader.push(['BaseView'], function() {
                 $podcasts = this.find('div.content > div.podcasts');
             $loader.addClass('hidden');
             $podcasts.removeClass('hidden');
+            this._header.show.social.apply(this._header);
         }
     });
 });

@@ -6,22 +6,18 @@
 
     > div {
         position: relative;
-        padding: 4px 0 4px 0;
         padding: 10px 0 10px 0;
 
         > div.thumb {
-            height: 48px;
-            width: 48px;
             margin: 0 auto 0 auto;
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: 58%;
             opacity: 0.7;
             filter: grayscale(100%);
             transition: all 150ms;
             height: 28px;
             width: 28px;
-            background-size: 100%;
+            background-size: contain;
         }
 
         > div.badge {

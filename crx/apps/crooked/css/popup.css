@@ -20,7 +20,7 @@ html > body > header a.logo {
     margin: calc((64px - 32px) / 2) 0 0 16px;
 }
 html > body > header a.logo:hover {
-    transform: scale(1.15) rotate(-3deg);
+    transform: scale(1.15) rotate(-2deg);
 }
 html > body > header div.social a:hover {
     background-color: #feea37;
@@ -109,4 +109,11 @@ html > body > div.modal div.content h1 sup {
 }
 html > body > div.modal div.content p {
     font-family: 'LyonText-Regular';
+    color: #1a1a1a;
+}
+html > body > div.modal div.content p a {
+    color: #1a1a1a;
+}
+html > body > div.modal div.content p a:hover {
+    color: #6676fb;
 }

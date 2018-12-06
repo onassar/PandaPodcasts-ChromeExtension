@@ -106,4 +106,11 @@ html > body > div.modal div.content h1 sup {
 }
 html > body > div.modal div.content p {
     font-family: Georgia;
+    color: #121212;
+}
+html > body > div.modal div.content p a {
+    color: #121212;
+}
+html > body > div.modal div.content p a:hover {
+    color: #6B6B6B;
 }
