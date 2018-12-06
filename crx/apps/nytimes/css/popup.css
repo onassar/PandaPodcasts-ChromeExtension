@@ -59,8 +59,15 @@ html > body > div.content div.podcasts nav > div > div.badge {
 html > body > div.content div.podcasts nav > div > div.badge.secondary {
     background-color: #f56a92;
 }
-html > body > div.content div.podcasts div.podcasts div.podcast div.empty div.copy p {
+html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p {
     font-family: 'nyt-cheltenham-sh-400-normal';
+    color: #1a1a1a;
+}
+html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a {
+    color: #1a1a1a;
+}
+html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
+    color: #6B6B6B;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
     font-family: 'nyt-franklin-700-normal';

@@ -2,7 +2,7 @@
     "name": "Pod Save America & Crooked Media",
     "short_name": "crooked",
     "description": "Keep up with all the Pod Save America & Crooked Media episodes and updates!",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "author": "Oliver Nassar",
     "manifest_version": 2,
     "background": {
@@ -47,24 +47,18 @@
     "browser_action": {
         "default_title": "Pod Save America & Crooked Media",
         "default_icon": {
-            "19": "/apps/crooked/images/logos/favicon-transparent-19x19.png",
-            "38": "/apps/crooked/images/logos/favicon-transparent-38x38.png"
+            "19": "apps/crooked/images/logos/favicon-transparent-19x19.png",
+            "38": "apps/crooked/images/logos/favicon-transparent-38x38.png"
         },
         "default_popup": "/apps/crooked/pages/popup.html"
     },
     "permissions": [
-        "management",
-        "notifications",
-        "storage",
-        "tabs",
-        "https://crooked.com/",
-        "https://*.crooked.com/",
-        "https://raw.githubusercontent.com/"
+        "notifications"
     ],
     "icons": {
-        "16": "/apps/crooked/images/logos/favicon-transparent-16x16.png",
-        "48": "/apps/crooked/images/logos/favicon-transparent-48x48.png",
-        "128": "/apps/crooked/images/logos/favicon-transparent-128x128.png"
+        "16": "apps/crooked/images/logos/favicon-transparent-16x16.png",
+        "48": "apps/crooked/images/logos/favicon-transparent-48x48.png",
+        "128": "apps/crooked/images/logos/favicon-transparent-128x128.png"
     },
     "web_accessible_resources": [
         "/apps/crooked/files/*",

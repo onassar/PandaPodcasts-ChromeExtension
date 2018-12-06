@@ -9,6 +9,15 @@
         "thumb": "/apps/nytimes/images/podcasts/td.jpg",
         "episodes": {
             "reverse": false
+        },
+        "timestampFormat": "YYYY\\/MM\\/DD",
+        "xPathExpressions": {
+            "episodes": "//section[contains(@id, 'stream-panel')]//ol//li[contains(@class, 'css-')]",
+            "timestamp": "substring(*//a/@href, 2, 10)",
+            "description": "string(*//p[contains(@class, 'css-')]/text())",
+            "title": "string(*//h2[contains(@class, 'css-')]/text())",
+            "link": "string(*//a/@href)",
+            "thumb": "string(*//img[contains(@class, 'css-')]/@src)"
         }
     },
     {

@@ -47,24 +47,18 @@
     "browser_action": {
         "default_title": "{{title}}",
         "default_icon": {
-            "19": "/apps/{{directory}}/images/logos/favicon-white-19x19.png",
-            "38": "/apps/{{directory}}/images/logos/favicon-white-38x38.png"
+            "19": "apps/{{directory}}/images/logos/favicon-white-19x19.png",
+            "38": "apps/{{directory}}/images/logos/favicon-white-38x38.png"
         },
         "default_popup": "/apps/{{directory}}/pages/popup.html"
     },
     "permissions": [
-        "management",
-        "notifications",
-        "storage",
-        "tabs",
-        "https://{{host}}/",
-        "https://*.{{host}}/",
-        "https://raw.githubusercontent.com/"
+        "notifications"
     ],
     "icons": {
-        "16": "/apps/{{directory}}/images/logos/favicon-white-16x16.png",
-        "48": "/apps/{{directory}}/images/logos/favicon-white-48x48.png",
-        "128": "/apps/{{directory}}/images/logos/favicon-white-128x128.png"
+        "16": "apps/{{directory}}/images/logos/favicon-white-16x16.png",
+        "48": "apps/{{directory}}/images/logos/favicon-white-48x48.png",
+        "128": "apps/{{directory}}/images/logos/favicon-white-128x128.png"
     },
     "web_accessible_resources": [
         "/apps/{{directory}}/files/*",

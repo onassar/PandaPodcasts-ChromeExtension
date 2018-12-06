@@ -37,12 +37,17 @@ window.DependencyLoader.push(['BaseCollection', 'EpisodeModel'], function() {
         /**
          * preloadThumbs
          * 
+         * @throws  Error
          * @access  public
          * @return  Boolean
          */
         preloadThumbs: function() {
-            var first = this.first(),
-                podcast = first.getPodcast();
+            var first = this.first();
+            if (first === undefined) {
+                var msg = 'First episode in collection could not be found';
+                throw new Error(msg);
+            }
+            var podcast = first.getPodcast();
             if (podcast.get('key') !== 'psa') {
                 return false;
             }

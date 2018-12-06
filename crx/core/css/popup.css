@@ -351,11 +351,11 @@ html {
               html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p {
                 font-size: 15px;
                 line-height: 1.5em;
-                color: #1a1a1a; }
+                color: red; }
                 html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a {
-                  color: #1a1a1a; }
+                  color: red; }
                   html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
-                    color: #6676fb; }
+                    color: green; }
           html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes {
             overflow: auto;
             max-height: 100%; }

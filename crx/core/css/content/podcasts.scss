@@ -22,13 +22,13 @@
                 > p {
                     font-size: 15px;
                     line-height: 1.5em;
-                    color: #1a1a1a;
+                    color: red;
 
                     > a {
-                        color: #1a1a1a;
+                        color: red;
 
                         &:hover {
-                            color: #6676fb;
+                            color: green;
                         }
                     }
                 }

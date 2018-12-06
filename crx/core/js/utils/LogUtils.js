@@ -52,6 +52,7 @@ window.LogUtils = (function() {
                 color = 'color:red;';
             msg = '%c' + (timestamp) + ' ' + (msg);
             console.log(msg, color);
+            // console.trace();
         }
     };
 })();
