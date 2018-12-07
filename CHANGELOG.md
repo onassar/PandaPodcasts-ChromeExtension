@@ -26,3 +26,7 @@ relative image path (weird..)
 ## [2.0.3] - 2018-12-06
 ### Minor update
 - `NotificationUtils` inclusion (for future)
+
+## [2.0.4] - 2018-12-07
+### Minor update
+- Added `nytimes` podcast
