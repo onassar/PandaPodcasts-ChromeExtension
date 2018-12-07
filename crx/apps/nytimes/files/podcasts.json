@@ -71,7 +71,7 @@
         "link": "https://www.nytimes.com/column/change-agent",
         "description": "Everyone’s got problems. We try to fix them.",
         "show": true,
-        "more": true,
+        "more": false,
         "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/nytimes/images/podcasts/ca.jpg",
         "episodes": {
             "reverse": false
