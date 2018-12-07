@@ -6,7 +6,7 @@
         "description": "This is how the news should sound. Twenty minutes a day, five days a week, hosted by Michael Barbaro and powered by New York Times journalism.",
         "show": true,
         "more": true,
-        "thumb": "/apps/nytimes/images/podcasts/td.jpg",
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@master/crx/apps/nytimes/images/podcasts/td.jpg",
         "episodes": {
             "reverse": false
         },
@@ -27,7 +27,7 @@
         "description": "Wesley Morris and Jenna Wortham are working it out.",
         "show": true,
         "more": true,
-        "thumb": "/apps/nytimes/images/podcasts/sp.jpg",
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@master/crx/apps/nytimes/images/podcasts/sp.jpg",
         "episodes": {
             "reverse": false
         },
@@ -48,7 +48,7 @@
         "description": "The Times's pop music team on music news, new songs and albums, and artists of note.",
         "show": true,
         "more": true,
-        "thumb": "/apps/nytimes/images/podcasts/p.jpg",
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@master/crx/apps/nytimes/images/podcasts/p.jpg",
         "episodes": {
             "reverse": false
         }
@@ -60,7 +60,7 @@
         "description": "The podcast that takes you inside the literary world.",
         "show": true,
         "more": true,
-        "thumb": "/apps/nytimes/images/podcasts/tbr.jpg",
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@master/crx/apps/nytimes/images/podcasts/tbr.jpg",
         "episodes": {
             "reverse": false
         }
@@ -72,7 +72,7 @@
         "description": "Everyone’s got problems. We try to fix them.",
         "show": true,
         "more": true,
-        "thumb": "/apps/nytimes/images/podcasts/ca.jpg",
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@master/crx/apps/nytimes/images/podcasts/ca.jpg",
         "episodes": {
             "reverse": false
         }
