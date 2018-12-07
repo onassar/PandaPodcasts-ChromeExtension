@@ -76,5 +76,17 @@
         "episodes": {
             "reverse": false
         }
+    },
+    {
+        "key": "ta",
+        "name": "The Argument",
+        "link": "https://www.nytimes.com/column/the-argument",
+        "description": "The news tells you what's going on, but not what to make of it. Every week New York Times Opinion columnists Ross Douthat, Michelle Goldberg and David Leonhardt explain the argument from each side of the political spectrum, so you can decide where you stand and how to persuade the opposition.",
+        "show": true,
+        "more": true,
+        "thumb": "/apps/nytimes/images/podcasts/ta.png",
+        "episodes": {
+            "reverse": false
+        }
     }
 ]
