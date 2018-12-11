@@ -30,3 +30,13 @@ relative image path (weird..)
 ## [2.0.4] - 2018-12-07
 ### Minor update
 - Added `nytimes` podcast
+
+## [2.0.5] - 2018-12-07
+### Minor update
+- Can't remember
+
+## [2.0.6] - 2018-12-07
+### Minor update
+- Notifications
+- Badge on browser action icon when new episodes available
+- `/scripts/build.sh` script to build cleaner zips/versions
