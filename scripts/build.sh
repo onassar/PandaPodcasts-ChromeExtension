@@ -30,36 +30,38 @@ mkdir build/
 ## crooked
 ## 
 ## 
-mkdir build/crooked/
-cp -R crx/ build/crooked/crx/
-rm -rf build/crooked/crx/apps/nytimes/
-rm -rf build/crooked/crx/apps/crooked/assets/
-cp build/crooked/crx/manifests/crooked.json build/crooked/crx/manifest.json
-perl -0 -p -i -e 's/    "version": "[0-9\.]+"/    "version": "@ARGV"/' build/crooked/crx/manifest.json $version
-rm -rf build/crooked/crx/manifests/
-cd build/crooked/crx/
-zip -q -r crooked-v$version.zip .
+shortName="crooked"
+mkdir build/$shortName/
+cp -R crx/ build/$shortName/crx/
+rm -rf build/$shortName/crx/apps/nytimes/
+rm -rf build/$shortName/crx/apps/$shortName/assets/
+cp build/$shortName/crx/manifests/$shortName.json build/$shortName/crx/manifest.json
+perl -0 -p -i -e 's/    "version": "[0-9\.]+"/    "version": "@ARGV"/' build/$shortName/crx/manifest.json $version
+rm -rf build/$shortName/crx/manifests/
+cd build/$shortName/crx/
+zip -q -r $shortName-v$version.zip .
 cd ../../../
-mv build/crooked/crx/crooked-v$version.zip versions/
-rm -rf build/crooked/
+mv build/$shortName/crx/$shortName-v$version.zip versions/
+rm -rf build/$shortName/
 
 
 ## 
 ## nytimes
 ## 
 ## 
-mkdir build/nytimes/
-cp -R crx/ build/nytimes/crx/
-rm -rf build/nytimes/crx/apps/crooked/
-rm -rf build/nytimes/crx/apps/nytimes/assets/
-cp build/nytimes/crx/manifests/nytimes.json build/nytimes/crx/manifest.json
-perl -0 -p -i -e 's/    "version": "[0-9\.]+"/    "version": "@ARGV"/' build/nytimes/crx/manifest.json $version
-rm -rf build/nytimes/crx/manifests/
-cd build/nytimes/crx/
-zip -q -r nytimes-v$version.zip .
+shortName="nytimes"
+mkdir build/$shortName/
+cp -R crx/ build/$shortName/crx/
+rm -rf build/$shortName/crx/apps/crooked/
+rm -rf build/$shortName/crx/apps/$shortName/assets/
+cp build/$shortName/crx/manifests/$shortName.json build/$shortName/crx/manifest.json
+perl -0 -p -i -e 's/    "version": "[0-9\.]+"/    "version": "@ARGV"/' build/$shortName/crx/manifest.json $version
+rm -rf build/$shortName/crx/manifests/
+cd build/$shortName/crx/
+zip -q -r $shortName-v$version.zip .
 cd ../../../
-mv build/nytimes/crx/nytimes-v$version.zip versions/
-rm -rf build/nytimes/
+mv build/$shortName/crx/$shortName-v$version.zip versions/
+rm -rf build/$shortName/
 
 
 ## 
