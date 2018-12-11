@@ -41,6 +41,24 @@ window.PandaPodcastsBackground = (function() {
     };
 
     /**
+     * __loadPodcasts
+     * 
+     * @access  private
+     * @return  Promise
+     */
+    var __loadPodcasts = function() {
+        var model = DataUtils.get.model('Podcast'),
+            promise = model.list().then(function(podcasts) {
+                __collections.podcasts = podcasts;
+                var promise = podcasts.loadEpisodes();
+                return promise;
+            }).catch(function(err) {
+                LogUtils.log(err);
+            });
+        return promise;
+    };
+
+    /**
      * __loadSettings
      * 
      * @access  private
@@ -82,6 +100,52 @@ window.PandaPodcastsBackground = (function() {
         });
     };
 
+    /**
+     * __setupNotificationInterval
+     * 
+     * @access  private
+     * @return  void
+     */
+    var __setupNotificationInterval = function() {
+        var interval = SettingsUtils.get('notificationsInterval');
+        interval *= 1000;
+        setInterval(function() {
+            __loadPodcasts().then(function() {
+                __showPossibleNotification();
+                delete __collections.podcasts;
+            });
+        }, interval);
+    };
+
+    /**
+     * __showPossibleNotification
+     * 
+     * @access  private
+     * @return  Boolean
+     */
+    var __showPossibleNotification = function() {
+        var podcasts = __collections.podcasts.all(),
+            index,
+            podcast;
+        for (index in podcasts) {
+            podcast = podcasts[index];
+            var key = podcast.get('key'),
+                value = CacheUtils.get(key),
+                episode = podcast.getEpisodes().first();
+            if (value === null) {
+                value = episode.get('key');
+                CacheUtils.set(key, value, 0);
+                continue;
+            }
+            if (value === episode.get('key')) {
+                continue;
+            }
+            podcast.showNotification();
+            return true;
+        }
+        return false;
+    };
+
     // Public
     return {
 
@@ -98,6 +162,7 @@ window.PandaPodcastsBackground = (function() {
                     await LogUtils.log('Background: Start'),
                     await __addInstallEventListener(),
                     await __loadSettings(),
+                    await __setupNotificationInterval(),
                     await LogUtils.log('Background: Complete')
                 ];
                 Promise.all(promises);

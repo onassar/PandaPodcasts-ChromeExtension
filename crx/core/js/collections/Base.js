@@ -59,6 +59,17 @@ window.DependencyLoader.push('Base', function() {
         },
 
         /**
+         * all
+         * 
+         * @access  public
+         * @return  Array
+         */
+        all: function() {
+            var accessors = this._accessors;
+            return accessors;
+        },
+
+        /**
          * each
          * 
          * @access  public

@@ -124,6 +124,14 @@
         "value": 1500
     },
     {
+        "key": "notificationsInterval",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": 900
+    },
+    {
         "key": "podcastEpisodeTimestampOutputFormat",
         "roles": [
             "development",

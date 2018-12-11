@@ -51,6 +51,24 @@ window.DependencyLoader.push(['BaseAccessor', 'PodcastModel'], function() {
         },
 
         /**
+         * _getNotification
+         * 
+         * @access  protected
+         * @return  Object
+         */
+        _getNotification: function() {
+            var name = this._data.name,
+                episode = this._episodes.first(),
+                title = episode.get('title'),
+                notification = {
+                    title: 'New "' + (name) + '" Episode',
+                    message: title,
+                    url: episode.get('link')
+                };
+            return notification;
+        },
+
+        /**
          * deselect
          * 
          * @access  public
@@ -185,6 +203,21 @@ window.DependencyLoader.push(['BaseAccessor', 'PodcastModel'], function() {
                 this._selected = true;
                 this.triggerHandler('select', [autoSelected]);
             }
+        },
+
+        /**
+         * showNotification
+         * 
+         * @access  public
+         * @return  void
+         */
+        showNotification: function() {
+            var notification = this._getNotification();
+            NotificationUtils.show(
+                notification.title,
+                notification.message,
+                notification.url
+            );
         }
     });
 });

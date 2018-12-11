@@ -13,6 +13,14 @@ window.NotificationUtils = (function() {
      */
 
     /**
+     * __notifications
+     * 
+     * @access  private
+     * @var     Object (default: {})
+     */
+    var __notifications = {};
+
+    /**
      * __string
      * 
      * @access  private
@@ -24,6 +32,21 @@ window.NotificationUtils = (function() {
      * Methods
      * 
      */
+
+    /**
+     * __addClearNotificationsListener
+     * 
+     * @access  private
+     * @return  void
+     */
+    var __addClearNotificationsListener = function() {
+        chrome.notifications.onClicked.addListener(function(notificationId) {
+            var notification = __notifications[notificationId],
+                url = notification.url;
+            window.open(url);
+            chrome.notifications.clear(notificationId);
+        });
+    };
 
     /**
      * __getIconURL
@@ -48,20 +71,41 @@ window.NotificationUtils = (function() {
     return {
 
         /**
-         * show
+         * init
          * 
+         * @see     https://developer.chrome.com/apps/notifications
          * @access  public
          * @return  void
          */
-        show: function(title, message) {
-            var url = __getIconURL();
-            chrome.notifications.create('notification', { 
+        init: function() {
+            __addClearNotificationsListener();
+        },
+
+        /**
+         * show
+         * 
+         * @see     https://developer.chrome.com/apps/notifications
+         * @access  public
+         * @param   String title
+         * @param   String message
+         * @param   String url
+         * @return  void
+         */
+        show: function(title, message, url) {
+            var iconURL = __getIconURL(),
+                notificationId = DataUtils.getRandomString();
+            __notifications[notificationId] = {
+                url: url
+            };
+            notification = chrome.notifications.create(notificationId, {
                 type: 'basic',
-                iconUrl: url,
+                iconUrl: iconURL,
                 title: title,
-                eventTime: (Date.now() / 1000)  + (2 * 1000),
                 message: message
             });
         }
     };
 })();
+
+// Let's do this!
+NotificationUtils.init();

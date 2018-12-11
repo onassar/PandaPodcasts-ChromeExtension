@@ -138,6 +138,9 @@ window.CacheUtils = (function() {
         for (index in __cache) {
             object = __cache[index];
             difference = now - object.timestamp;
+            if (object.cacheDuration === 0) {
+                continue;
+            }
             if (difference >= object.cacheDuration) {
                 delete __cache[index];
             }
