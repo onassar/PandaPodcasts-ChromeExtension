@@ -174,7 +174,7 @@ window.PandaPodcastsBackground = (function() {
             podcast;
         for (index in podcasts) {
             podcast = podcasts[index];
-            var key = podcast.get('key'),
+            var key = podcast.getNotificationCacheStorageKey(),
                 value = CacheUtils.get(key),
                 episode = podcast.getEpisodes().first();
             if (value === null) {

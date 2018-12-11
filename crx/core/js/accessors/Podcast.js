@@ -115,6 +115,25 @@ window.DependencyLoader.push(['BaseAccessor', 'PodcastModel'], function() {
         },
 
         /**
+         * getNotificationCacheStorageKey
+         * 
+         * @access  public
+         * @return  String
+         */
+        getNotificationCacheStorageKey: function() {
+            var hash = {
+                    objectType: 'podcast',
+                    objectKey: this._data.key,
+                    cacheType: 'notification',
+                    description: 'First episode key'
+                },
+                flattened = JSON.stringify(hash),
+                cacheStorageKey = md5(flattened);
+            return flattened;
+            return cacheStorageKey;
+        },
+
+        /**
          * getXPathExpressions
          * 
          * @see     https://github.com/ilinsky/jquery-xpath

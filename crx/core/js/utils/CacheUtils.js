@@ -137,10 +137,10 @@ window.CacheUtils = (function() {
             difference;
         for (index in __cache) {
             object = __cache[index];
-            difference = now - object.timestamp;
             if (object.cacheDuration === 0) {
                 continue;
             }
+            difference = now - object.timestamp;
             if (difference >= object.cacheDuration) {
                 delete __cache[index];
             }
@@ -168,6 +168,16 @@ window.CacheUtils = (function() {
     return {
 
         /**
+         * all
+         * 
+         * @access  public
+         * @return  Array
+         */
+        all: function() {
+            return __cache;
+        },
+
+        /**
          * backgroundRequest
          * 
          * @access  public
@@ -178,13 +188,13 @@ window.CacheUtils = (function() {
         },
 
         /**
-         * all
+         * cleanup
          * 
          * @access  public
-         * @return  Array
+         * @return  void
          */
-        all: function() {
-            return __cache;
+        cleanup: function() {
+            __cleanup();
         },
 
         /**
