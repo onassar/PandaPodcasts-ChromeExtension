@@ -96,7 +96,8 @@ window.CacheUtils = (function() {
                 if (request.action === 'cache.set') {
                     var key = request.key,
                         value = request.value,
-                        response = CacheUtils.set(key, value);
+                        cacheDuration = request.cacheDuration,
+                        response = CacheUtils.set(key, value, cacheDuration);
                     sendResponse(response);
                 }
             }
@@ -242,7 +243,7 @@ window.CacheUtils = (function() {
          * @access  public
          * @param   String key
          * @param   mixed value
-         * @param   Number cacheDuration
+         * @param   undefined|Number cacheDuration (default: __defaultCacheDuration)
          * @return  Boolean|Promise
          */
         set: function(key, value, cacheDuration) {
@@ -265,7 +266,8 @@ window.CacheUtils = (function() {
                 chrome.runtime.sendMessage({
                     action: 'cache.set',
                     key: key,
-                    value: value
+                    value: value,
+                    cacheDuration: cacheDuration
                 }, function(response) {
                     resolve(response);
                 });
