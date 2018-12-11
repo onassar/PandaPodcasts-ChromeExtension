@@ -36,6 +36,7 @@ window.NotificationUtils = (function() {
     /**
      * __addClearNotificationsListener
      * 
+     * @see     https://developer.chrome.com/apps/notifications
      * @access  private
      * @return  void
      */
@@ -73,7 +74,6 @@ window.NotificationUtils = (function() {
         /**
          * init
          * 
-         * @see     https://developer.chrome.com/apps/notifications
          * @access  public
          * @return  void
          */
