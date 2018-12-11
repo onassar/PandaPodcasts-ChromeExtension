@@ -54,6 +54,18 @@ window.PandaPodcastsPopup = (function() {
     };
 
     /**
+     * __clearBadge
+     * 
+     * @access  private
+     * @return  void
+     */
+    var __clearBadge = function() {
+        chrome.runtime.sendMessage({
+            action: 'clearBadge'
+        });
+    };
+
+    /**
      * __insertTemplate
      * 
      * @access  private
@@ -197,6 +209,7 @@ window.PandaPodcastsPopup = (function() {
         }
         podcast.select(true);
         __view.show();
+        __clearBadge();
     };
 
     /**

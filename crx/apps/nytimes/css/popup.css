@@ -67,7 +67,7 @@ html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empt
     color: #1a1a1a;
 }
 html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
-    color: #6B6B6B;
+    color: #6b6b6b;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
     font-family: 'nyt-franklin-700-normal';
@@ -101,7 +101,7 @@ html > body > footer > a {
     font-family: 'nyt-franklin-700-normal';
 }
 html > body > footer > a:hover {
-    color: #6B6B6B;
+    color: #6b6b6b;
 }
 
 /**
@@ -119,5 +119,5 @@ html > body > div.modal div.content p a {
     color: #121212;
 }
 html > body > div.modal div.content p a:hover {
-    color: #6B6B6B;
+    color: #6b6b6b;
 }

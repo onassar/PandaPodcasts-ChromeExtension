@@ -25,6 +25,22 @@ window.PandaPodcastsBackground = (function() {
      */
 
     /**
+     * __addClearBadgeListener
+     * 
+     * @access  private
+     * @return  void
+     */
+    var __addClearBadgeListener = function() {
+        chrome.runtime.onMessage.addListener(
+            function(request, sender, sendResponse) {
+                if (request.action == 'clearBadge') {
+                    __clearBadge();
+                }
+            }
+        );
+    };
+
+    /**
      * __addInstallEventListener
      * 
      * @access  private
@@ -38,6 +54,18 @@ window.PandaPodcastsBackground = (function() {
                 }
             }
         );
+    };
+
+    /**
+     * __clearBadge
+     * 
+     * @access  private
+     * @return  void
+     */
+    var __clearBadge = function() {
+        chrome.browserAction.setBadgeText({
+            'text': ''
+        });
     };
 
     /**
@@ -101,6 +129,22 @@ window.PandaPodcastsBackground = (function() {
     };
 
     /**
+     * __setBadge
+     * 
+     * @access  private
+     * @return  void
+     */
+    var __setBadge = function() {
+        var badgeColor = SettingsUtils.get('notificationBadgeColor');
+        chrome.browserAction.setBadgeText({
+            'text': ' '
+        });
+        chrome.browserAction.setBadgeBackgroundColor({
+            'color': badgeColor
+        });
+    };
+
+    /**
      * __setupNotificationInterval
      * 
      * @access  private
@@ -124,6 +168,7 @@ window.PandaPodcastsBackground = (function() {
      * @return  Boolean
      */
     var __showPossibleNotification = function() {
+        __clearBadge();
         var podcasts = __collections.podcasts.all(),
             index,
             podcast;
@@ -140,6 +185,7 @@ window.PandaPodcastsBackground = (function() {
             if (value === episode.get('key')) {
                 continue;
             }
+            __setBadge();
             podcast.showNotification();
             return true;
         }
@@ -157,6 +203,7 @@ window.PandaPodcastsBackground = (function() {
          */
         init: function() {
             console.log('PandaPodcastsBackground');
+            __addClearBadgeListener();
             var load = async function() {
                 var promises = [
                     await LogUtils.log('Background: Start'),

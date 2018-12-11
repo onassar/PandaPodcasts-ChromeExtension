@@ -132,6 +132,14 @@
         "value": 900
     },
     {
+        "key": "notificationBadgeColor",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "#f32e66"
+    },
+    {
         "key": "podcastEpisodeTimestampOutputFormat",
         "roles": [
             "development",
