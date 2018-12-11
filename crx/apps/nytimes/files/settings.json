@@ -57,7 +57,7 @@
             "link": "https://nytimes.com/",
             "title": "(unknown title)",
             "description": "(unknown description)",
-            "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/images/placeholders/thumb.jpg"
+            "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/nytimes/images/placeholders/thumb.jpg"
         }
     },
     {
