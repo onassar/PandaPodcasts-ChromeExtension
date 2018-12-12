@@ -185,6 +185,8 @@ window.PandaPodcastsBackground = (function() {
             if (value === episode.get('key')) {
                 continue;
             }
+            value = episode.get('key');
+            CacheUtils.set(key, value, 0);
             __setBadge();
             podcast.showNotification();
             return true;

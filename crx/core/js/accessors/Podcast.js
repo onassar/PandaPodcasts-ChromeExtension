@@ -62,8 +62,8 @@ window.DependencyLoader.push(['BaseAccessor', 'PodcastModel'], function() {
                 title = episode.get('title'),
                 notification = {
                     title: 'New "' + (name) + '" Episode',
-                    message: title,
-                    url: episode.get('link')
+                    message: episode.getTitle(),
+                    url: episode.getLink()
                 };
             return notification;
         },
