@@ -35,6 +35,9 @@ mkdir build/$shortName/
 cp -R crx/ build/$shortName/crx/
 rm -rf build/$shortName/crx/apps/nytimes/
 rm -rf build/$shortName/crx/apps/$shortName/assets/
+rm -rf build/$shortName/crx/apps/$shortName/images/placeholders/
+rm -rf build/$shortName/crx/apps/$shortName/images/podcasts/
+rm -rf build/$shortName/crx/apps/$shortName/images/sponsors/
 cp build/$shortName/crx/manifests/$shortName.json build/$shortName/crx/manifest.json
 perl -0 -p -i -e 's/    "version": "[0-9\.]+"/    "version": "@ARGV"/' build/$shortName/crx/manifest.json $version
 rm -rf build/$shortName/crx/manifests/
@@ -54,6 +57,9 @@ mkdir build/$shortName/
 cp -R crx/ build/$shortName/crx/
 rm -rf build/$shortName/crx/apps/crooked/
 rm -rf build/$shortName/crx/apps/$shortName/assets/
+rm -rf build/$shortName/crx/apps/$shortName/images/placeholders/
+rm -rf build/$shortName/crx/apps/$shortName/images/podcasts/
+rm -rf build/$shortName/crx/apps/$shortName/images/sponsors/
 cp build/$shortName/crx/manifests/$shortName.json build/$shortName/crx/manifest.json
 perl -0 -p -i -e 's/    "version": "[0-9\.]+"/    "version": "@ARGV"/' build/$shortName/crx/manifest.json $version
 rm -rf build/$shortName/crx/manifests/
