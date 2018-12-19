@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'cheltenham-normal-500';
-    src: url('/apps/nytimes/fonts/cheltenham-normal-500.woff') format('woff');
+    src: url('/apps/kerning/fonts/cheltenham-normal-500.woff') format('woff');
 }
 
 @font-face {
     font-family: 'cheltenham-normal-700';
-    src: url('/apps/nytimes/fonts/cheltenham-normal-700.woff') format('woff');
+    src: url('/apps/kerning/fonts/cheltenham-normal-700.woff') format('woff');
 }
 
 @font-face {
     font-family: 'nyt-franklin-500-normal';
-    src: url('/apps/nytimes/fonts/nyt-franklin-500-normal.woff') format('woff');
+    src: url('/apps/kerning/fonts/nyt-franklin-500-normal.woff') format('woff');
 }
 
 @font-face {
     font-family: 'nyt-franklin-700-normal';
-    src: url('/apps/nytimes/fonts/nyt-franklin-700-normal.woff') format('woff');
+    src: url('/apps/kerning/fonts/nyt-franklin-700-normal.woff') format('woff');
 }
 
 @font-face {
     font-family: 'nyt-cheltenham-sh-400-normal';
-    src: url('/apps/nytimes/fonts/nyt-cheltenham-sh-400-normal.woff') format('woff');
+    src: url('/apps/kerning/fonts/nyt-cheltenham-sh-400-normal.woff') format('woff');
 }
