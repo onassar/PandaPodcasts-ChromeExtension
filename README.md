@@ -41,3 +41,6 @@ you'd like to make.
 ### Thank You
 - [The New York Times Wikipedia Page](https://en.wikipedia.org/wiki/The_New_York_Times)  
 - [American History 100 Facts](http://w3.gilmerisd.org/Docs/100Facts.htm)
+- [Interesting Facts About "The Middle East" From Terrace](http://www.terracerestaurantandlounge.com/interesting-facts-about-the-middle-east-from-terrace-restaurant/)
+- [Fun Facts about the Middle East.pdf](https://cmes.arizona.edu/sites/cmes.arizona.edu/files/Fun%20Facts%20about%20the%20Middle%20East.pdf)
+- [50 Interesting Facts about Middle East](https://factrepublic.com/50-interesting-facts-about-middle-east/)
