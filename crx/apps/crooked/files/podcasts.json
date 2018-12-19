@@ -6,7 +6,7 @@
         "description": "A no-bullshit conversation about politics.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/psa.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/psa.png",
         "episodes": {
             "reverse": false
         }
@@ -18,7 +18,7 @@
         "description": "A no-bullshit conversation about foreign policy.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/pstw.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/pstw.png",
         "episodes": {
             "reverse": false
         }
@@ -30,7 +30,7 @@
         "description": "A week in review recorded in front of a live audience. It’s great.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/loli.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/loli.png",
         "episodes": {
             "reverse": false
         }
@@ -42,7 +42,7 @@
         "description": "A no-bullshit conversation that goes beyond the headlines.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/cc.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/cc.png",
         "episodes": {
             "reverse": false
         }
@@ -54,7 +54,7 @@
         "description": "DeRay’s new show on activism, social justice, culture, and politics.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/pstp.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/pstp.png",
         "episodes": {
             "reverse": false
         }
@@ -66,7 +66,7 @@
         "description": "A show about pop culture, politics, and what happens when they smack into each other at alarming speed.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/ki.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/ki.png",
         "episodes": {
             "reverse": false
         }
@@ -78,7 +78,7 @@
         "description": "Women: 51% of the population and 100% of this podcast.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/h.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/h.png",
         "episodes": {
             "reverse": false
         }
@@ -90,7 +90,7 @@
         "description": "The Wilderness is a documentary from Crooked Media and Two-Up about the history and future of the Democratic Party.",
         "show": true,
         "more": false,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/tw.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/tw.png",
         "episodes": {
             "reverse": true
         },
@@ -110,7 +110,7 @@
         "description": "Jason Kander is an army veteran from Kansas City, Missouri and the first millennial elected to statewide office in the United States.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/m.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/m.png",
         "episodes": {
             "reverse": false
         }
@@ -122,7 +122,7 @@
         "description": "Ana Marie Cox hosts a podcast about what divides us and what doesn’t.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/crooked/images/podcasts/wflt.png",
+        "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/wflt.png",
         "episodes": {
             "reverse": false
         }
