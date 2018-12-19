@@ -160,6 +160,36 @@ window.StringUtils = (function() {
                 return shortened;
             }
             return number;
+        },
+
+        /**
+         * ucfirst
+         * 
+         * @see     https://stackoverflow.com/questions/1026069/how-do-i-make-the-first-letter-of-a-string-uppercase-in-javascript
+         * @access  public
+         * @param   String str
+         * @return  String
+         */
+        ucfirst: function(str) {
+            return str.charAt(0).toUpperCase() + str.slice(1);
+        },
+
+        /**
+         * ucwords
+         * 
+         * @see     https://stackoverflow.com/questions/5122402/uppercase-first-letter-of-variable
+         * @access  public
+         * @param   String str
+         * @return  String
+         */
+        ucwords: function(str) {
+            return str.replace(/\w\S*/g, function(txt){
+                return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+            });
+            str = str.toLowerCase().replace(/\b[a-z]/g, function(letter) {
+                return letter.toUpperCase();
+            });
+            return str;
         }
     };
 })();

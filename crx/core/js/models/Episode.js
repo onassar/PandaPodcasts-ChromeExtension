@@ -32,7 +32,7 @@ window.DependencyLoader.push(['BaseModel'], function() {
          * @access  protected
          * @param   jQuery $episode
          * @param   PodcastAccessor podcast
-         * @return  Object
+         * @return  null|Object
          */
         _getEpisodeDataViaXPath: function($episode, podcast) {
             var timestamp = this._runXPathExpression($episode, podcast, 'timestamp'),
@@ -48,6 +48,11 @@ window.DependencyLoader.push(['BaseModel'], function() {
                     description: description,
                     thumb: thumb
                 };
+            var fallbackEpisodeData = this._getFallbackEpisodeData(podcast),
+                fallback = fallbackEpisodeData.link;
+            if (link === fallback) {
+                return null;
+            }
             return data;
         },
 
@@ -101,6 +106,9 @@ window.DependencyLoader.push(['BaseModel'], function() {
                 }
                 $episode = $episodes.eq(index);
                 data = this._getEpisodeDataViaXPath($episode, podcast);
+                if (data === null) {
+                    continue;
+                }
                 episodes.push(data);
             }
             return episodes;

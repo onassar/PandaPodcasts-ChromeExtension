@@ -52,6 +52,18 @@ window.DependencyLoader.push(['BaseAccessor', 'EpisodeModel'], function() {
         },
 
         /**
+         * getDescription
+         * 
+         * @access  public
+         * @return  String
+         */
+        getDescription: function() {
+            var description = this._data.description;
+            description = description.trim();
+            return description;
+        },
+
+        /**
          * getFormattedTimestamp
          * 
          * @access  public

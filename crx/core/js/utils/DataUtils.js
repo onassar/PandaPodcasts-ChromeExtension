@@ -161,7 +161,7 @@ window.DataUtils = (function() {
         render: function(viewName, data) {
             data = DataUtils.getDefaultValue(data, {});
             var $script = $('script[name="' + (viewName) + '"]'),
-                markup = $script.html(),
+                markup = StringUtils.emojis($script.html()),
                 compiler = _.template(markup),
                 rendered = compiler(data).trim(),
                 parsed = jQuery.parseHTML(rendered),

@@ -31,6 +31,15 @@ div.episode {
                 transition: all $transitionDuration;
             }
 
+            div.description {
+                color: rgba(#1a1a1a, 0.6);
+                font-weight: 500;
+                font-size: 13.5px;
+                line-height: 1.24em;
+                clear: left;
+                display: none;
+            }
+
             div.timestamp {
                 clear: left;
                 background-color: rgba(#2D2D2D, 0.2);

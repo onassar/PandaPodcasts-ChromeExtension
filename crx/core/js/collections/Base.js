@@ -235,6 +235,17 @@ window.DependencyLoader.push('Base', function() {
          */
         reverse: function() {
             this._accessors = this._accessors.reverse();
+        },
+
+        /**
+         * trim
+         * 
+         * @access  public
+         * @param   Number max
+         * @return  void
+         */
+        trim: function(max) {
+            this._accessors.length = max;
         }
     });
 });

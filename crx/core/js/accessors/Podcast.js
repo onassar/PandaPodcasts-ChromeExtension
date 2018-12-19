@@ -170,6 +170,10 @@ window.DependencyLoader.push(['BaseAccessor', 'PodcastModel'], function() {
                     if (_this._data.episodes.reverse === true) {
                         _this._episodes.reverse();
                     }
+                    if (_this._data.episodes.max !== undefined) {
+                        var max = _this._data.episodes.max;
+                        _this._episodes.trim(max);
+                    }
                     return episodes;
                 }).catch(function(err) {
                     LogUtils.log(err);

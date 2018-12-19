@@ -7,6 +7,9 @@
                 <div class="title">
                     <%= episode.getTitle() %>
                 </div>
+                <div class="description">
+                    <%= episode.getDescription() %>
+                </div>
                 <%
                     if (episode.showTimestamp() === true) {
                         var classes = ['timestamp'];

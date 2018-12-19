@@ -125,7 +125,7 @@ html > body > div.modal {
         transform: rotate(90deg); }
     html > body > div.modal > div.content > h1 {
       font-weight: 700;
-      font-size: 19px;
+      font-size: 17px;
       line-height: 1.25em; }
       html > body > div.modal > div.content > h1 > sup {
         top: -1.1em;
@@ -382,6 +382,13 @@ html {
                     line-height: 1.2em;
                     float: left;
                     transition: all 85ms; }
+                  html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.description {
+                    color: rgba(26, 26, 26, 0.6);
+                    font-weight: 500;
+                    font-size: 13.5px;
+                    line-height: 1.24em;
+                    clear: left;
+                    display: none; }
                   html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.timestamp {
                     clear: left;
                     background-color: rgba(45, 45, 45, 0.2);

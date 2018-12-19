@@ -16,7 +16,7 @@
             "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'intrinsic')]",
             "timestamp": "tokenize(*//p/text(), '\\|')[last()]",
             "description": "tokenize(*//p/text(), '\\|')[1]",
-            "title": "lower-case(string(*//strong))",
+            "title": "concat(substring(string(*//strong), 1, 1), lower-case(substring(string(*//strong), 2)))",
             "link": "string(a/@href)",
             "thumb": "string(*//img/@data-src)"
         }
