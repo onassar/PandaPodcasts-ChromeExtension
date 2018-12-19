@@ -12,22 +12,19 @@ html {
  * Header
  * 
  */
-
-html > body > header {
-    /*background-color: #1C2C81;*/
-}
 html > body > header a.logo {
-    width: 162.9px;
-    height: 24px;
-    background-image: url('/apps/kerning/images/logos/full-1500x402.png');
+    width: 32px;
+    height: 32px;
+    background-image: url('/apps/kerning/images/logos/favicon-blue-128x128.png');
     background-color: transparent;
-    margin: calc((64px - 24px) / 2) 0 0 19px;
+    margin: calc((64px - 32px) / 2) 0 0 19px;
+    border-radius: 2px;
 }
 html > body > header a.logo:hover {
-    transform: scale(1.05);
+    transform: scale(1.15) rotate(-2deg);
 }
 html > body > header div.social a:hover {
-    background-color: #6489a4;
+    background-color: #221ea5;
 }
 
 /**
@@ -66,7 +63,7 @@ html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empt
     color: #1a1a1a;
 }
 html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
-    color: #6b6b6b;
+    color: #221ea5;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
     font-family: 'nyt-franklin-700-normal';
@@ -77,6 +74,9 @@ html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a:hover {
     background-color: #e2e2e2;
     color: #333333;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a > div.media {
+    border-radius: 3px;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details {
     padding: 0 12px 0 12px;
@@ -96,7 +96,7 @@ html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div
     opacity: 0.7;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.details div.title {
-    color: #f92361;
+    color: #221ea5;
 }
 
 /**
@@ -107,7 +107,7 @@ html > body > footer > a {
     font-family: 'nyt-franklin-700-normal';
 }
 html > body > footer > a:hover {
-    color: #6b6b6b;
+    color: #221ea5;
 }
 
 /**
@@ -125,5 +125,5 @@ html > body > div.modal div.content p a {
     color: #121212;
 }
 html > body > div.modal div.content p a:hover {
-    color: #6b6b6b;
+    color: #221ea5;
 }
