@@ -24,6 +24,21 @@
             {
                 "source": "manifest",
                 "key": "short_name",
+                "value": "kerning",
+                "properties": {
+                    "name": "Kerning Cultures",
+                    "resources": {
+                        "root": "/apps/kerning",
+                        "settings": {
+                            "development": "/apps/kerning/files/settings.json",
+                            "production": "/apps/kerning/files/settings.json"
+                        }
+                    }
+                }
+            },
+            {
+                "source": "manifest",
+                "key": "short_name",
                 "value": "nytimes",
                 "properties": {
                     "name": "The New York Times: Podcasts",
