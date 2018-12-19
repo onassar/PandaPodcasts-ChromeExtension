@@ -2,7 +2,7 @@
     "name": "Pod Save America & Crooked Media",
     "short_name": "crooked",
     "description": "Keep up with all the Pod Save America & Crooked Media episodes and updates!",
-    "version": "2.0.6",
+    "version": "2.3.0",
     "author": "Oliver Nassar",
     "manifest_version": 2,
     "background": {

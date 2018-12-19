@@ -2,7 +2,7 @@
     "name": "The New York Times Podcasts",
     "short_name": "nytimes",
     "description": "Keep up with all the New York Times podcasts (including The Daily)!",
-    "version": "2.0.6",
+    "version": "2.3.0",
     "author": "Oliver Nassar",
     "manifest_version": 2,
     "background": {

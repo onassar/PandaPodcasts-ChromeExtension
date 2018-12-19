@@ -1,8 +1,8 @@
 {
-    "name": "The New York Times Podcasts",
-    "short_name": "nytimes",
-    "description": "Keep up with all the New York Times podcasts (including The Daily)!",
-    "version": "2.0.6",
+    "name": "Kerning Cultures",
+    "short_name": "kerning",
+    "description": "Keep up with all the Kerning Cultures episodes!",
+    "version": "2.3.0",
     "author": "Oliver Nassar",
     "manifest_version": 2,
     "background": {
@@ -51,22 +51,22 @@
     "browser_action": {
         "default_title": "NYTimes Podcasts",
         "default_icon": {
-            "19": "apps/nytimes/images/logos/favicon-white-19x19.png",
-            "38": "apps/nytimes/images/logos/favicon-white-38x38.png"
+            "19": "apps/kerning/images/logos/favicon-white-19x19.png",
+            "38": "apps/kerning/images/logos/favicon-white-38x38.png"
         },
-        "default_popup": "/apps/nytimes/pages/popup.html"
+        "default_popup": "/apps/kerning/pages/popup.html"
     },
     "permissions": [
         "notifications"
     ],
     "icons": {
-        "16": "apps/nytimes/images/logos/favicon-white-16x16.png",
-        "48": "apps/nytimes/images/logos/favicon-white-48x48.png",
-        "128": "apps/nytimes/images/logos/favicon-white-128x128.png"
+        "16": "apps/kerning/images/logos/favicon-white-16x16.png",
+        "48": "apps/kerning/images/logos/favicon-white-48x48.png",
+        "128": "apps/kerning/images/logos/favicon-white-128x128.png"
     },
     "web_accessible_resources": [
-        "/apps/nytimes/files/*",
-        "/apps/nytimes/templates/*",
+        "/apps/kerning/files/*",
+        "/apps/kerning/templates/*",
         "/core/files/*",
         "/core/templates/*"
     ],
