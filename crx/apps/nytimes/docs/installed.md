@@ -1,4 +1,4 @@
-## NYTimes Podcasts Chrome Extension Installed
+## NYTimes Podcasts Chrome Extension Installed!
 
 ### Congratulations!
 The (unofficial and unauthorized) [New York Times](https://nytimes.com/)

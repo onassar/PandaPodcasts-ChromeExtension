@@ -1,4 +1,4 @@
-## Crooked Media Chrome Extension Installed
+## Crooked Media Chrome Extension Installed!
 
 ### Congratulations!
 You're life has just changed, in the most modest &amp; insignificant way, for
