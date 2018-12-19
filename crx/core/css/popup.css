@@ -385,10 +385,11 @@ html {
                   html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.description {
                     color: rgba(26, 26, 26, 0.6);
                     font-weight: 500;
-                    font-size: 13.5px;
-                    line-height: 1.24em;
+                    font-size: 14px;
+                    line-height: 1.3em;
                     clear: left;
-                    display: none; }
+                    display: none;
+                    padding: 2px 0 0 0; }
                   html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.episodes div.episode a div.details div.timestamp {
                     clear: left;
                     background-color: rgba(45, 45, 45, 0.2);
