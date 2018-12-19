@@ -1,0 +1,129 @@
+
+/**
+ * /apps/kerning/css/popup.css
+ * 
+ */
+@import './fonts.css';
+html {
+    font-family: Arial;
+}
+
+/**
+ * Header
+ * 
+ */
+
+html > body > header {
+    /*background-color: #1C2C81;*/
+}
+html > body > header a.logo {
+    width: 162.9px;
+    height: 24px;
+    background-image: url('/apps/kerning/images/logos/full-1500x402.png');
+    background-color: transparent;
+    margin: calc((64px - 24px) / 2) 0 0 19px;
+}
+html > body > header a.logo:hover {
+    transform: scale(1.05);
+}
+html > body > header div.social a:hover {
+    background-color: #6489a4;
+}
+
+/**
+ * Loader
+ * 
+ */
+html > body > div.content div.loader {
+    background-color: #2c2c2c;
+}
+html > body > div.content div.loader > div.media div.copy {
+    font-family: 'cheltenham-normal-500';
+}
+html > body > div.content div.loader > div.media div.graphic div.media {
+    border-radius: 100px;
+    border: 1px solid #cccccc;
+}
+
+/**
+ * Podcasts content
+ * 
+ */
+html > body > div.content > div.podcasts {
+}
+html > body > div.content > div.podcasts > div.podcasts {
+    width: 100%;
+    background-color: #f7f7f7;
+}
+html > body > div.content div.podcasts nav {
+    display: none;
+}
+html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p {
+    font-family: 'nyt-cheltenham-sh-400-normal';
+    color: #1a1a1a;
+}
+html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a {
+    color: #1a1a1a;
+}
+html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
+    color: #6b6b6b;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
+    font-family: 'nyt-franklin-700-normal';
+    background-color: #ebebeb;
+    border-color: #cccccc;
+    color: #333333;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a:hover {
+    background-color: #e2e2e2;
+    color: #333333;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details {
+    padding: 0 12px 0 12px;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.title {
+    font-family: 'cheltenham-normal-700';
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.description {
+    display: block;
+    font-family: 'cheltenham-normal-500';
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight {
+    background-color: #f62964;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.timestamp.highlight.secondary {
+    background-color: #f62964;
+    opacity: 0.7;
+}
+html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a:hover div.details div.title {
+    color: #f92361;
+}
+
+/**
+ * Footer
+ * 
+ */
+html > body > footer > a {
+    font-family: 'nyt-franklin-700-normal';
+}
+html > body > footer > a:hover {
+    color: #6b6b6b;
+}
+
+/**
+ * Modals
+ * 
+ */
+html > body > div.modal div.content h1 sup {
+    font-family: 'cheltenham-normal-500';
+}
+html > body > div.modal div.content p {
+    font-family: Georgia;
+    color: #121212;
+}
+html > body > div.modal div.content p a {
+    color: #121212;
+}
+html > body > div.modal div.content p a:hover {
+    color: #6b6b6b;
+}

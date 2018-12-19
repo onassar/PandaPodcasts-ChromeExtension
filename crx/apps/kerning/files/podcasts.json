@@ -1,0 +1,24 @@
+[
+    {
+        "key": "kc",
+        "name": "Kerning Cultures",
+        "link": "https://kerningcultures.com/episodes/",
+        "description": "A Middle East podcast network. Producing radio documentaries from the Middle East and its diaspora.",
+        "show": true,
+        "more": true,
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/kerning/images/podcasts/kc.jpg",
+        "episodes": {
+            "max": 12,
+            "reverse": false
+        },
+        "timestampFormat": "MMM D, YYYY",
+        "xPathExpressions": {
+            "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'intrinsic')]",
+            "timestamp": "tokenize(*//p/text(), '\\|')[last()]",
+            "description": "tokenize(*//p/text(), '\\|')[1]",
+            "title": "lower-case(string(*//strong))",
+            "link": "string(a/@href)",
+            "thumb": "string(*//img/@data-src)"
+        }
+    }
+]

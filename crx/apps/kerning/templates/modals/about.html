@@ -1,0 +1,18 @@
+<script name="AboutModal" type="text/template">
+    <div class="modal about">
+        <div class="content">
+            <a href="#" class="close fa fa-close" lookup="close"></a>
+            <h1>:wave: About this Chrome Extension<sup>v<%= SettingsUtils.version() %></sup></h1>
+            <p>
+                This Chrome Extension was built in collaboration with
+                <a class="logo" href="<%= SettingsUtils.getLink('homepage') %>" target="_blank">Kerning Cultures</a>.
+            </p>
+            <p>
+                The code for this Chrome Extension has been
+                <a href="<%= SettingsUtils.getLink('gitHub').repository %>" target="_blank">open sourced</a>,
+                and comments can be emailed to
+                <a href="mailto:onassar@gmail.com">onassar@gmail.com</a>.
+            </p>
+        </div>
+    </div>
+</script>

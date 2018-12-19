@@ -1,0 +1,209 @@
+[
+    {
+        "key": "cloudFlareCacheBustString",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "bustV2"
+    },
+    {
+        "key": "cloudFlareCacheDuration",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "1h"
+    },
+    {
+        "key": "cloudinaryCloudName",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "crooked"
+    },
+    {
+        "key": "defaultPodcastEpisodeTimestampFormat",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "ll"
+    },
+    {
+        "key": "defaultXPathExpressions",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "episodes": "//section[contains(@id, 'latest-panel')]//ol[contains(@class, 'story-menu theme-stream initial-set')]//li[contains(@id, 'story-id')]",
+            "timestamp": "string(*//time/text())",
+            "description": "string(*//p[contains(@class, 'summary')]/text())",
+            "title": "string(*//h2[contains(@class, 'headline')]/text())",
+            "link": "string(*//a[contains(@class, 'story-link')]/@href)",
+            "thumb": "string(*//img[contains(@role, 'presentation')]/@src)"
+        }
+    },
+    {
+        "key": "fallbackEpisodeData",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "timestamp": "unknown",
+            "link": "https://kerningcultures.com/",
+            "title": "(unknown title)",
+            "description": "(unknown description)",
+            "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/master/crx/apps/kerning/images/placeholders/thumb.jpg"
+        }
+    },
+    {
+        "key": "hosts",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "cloudinary": "res.cloudinary.com",
+            "cloudFront": "dx5683gi1tv0w.cloudfront.net"
+        }
+    },
+    {
+        "key": "imageResizingService",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "cloudinary"
+    },
+    {
+        "key": "links",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "base": "https://kerningcultures.com",
+            "gitHub": {
+                "repository": "https://github.com/onassar/PandaPodcasts-ChromeExtension"
+            },
+            "homepage": "https://kerningcultures.com/",
+            "social": {
+                "facebook": "https://www.facebook.com/kerningcultures/",
+                "twitter": "https://twitter.com/kerningcultures",
+                "instagram": "https://www.instagram.com/kerningcultures/",
+                "youTube": "https://www.youtube.com/channel/UCYh5qE7eWCIwWmYAlHRCbnQ"
+            }
+        }
+    },
+    {
+        "key": "loadingScreenImages",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": [
+            "/apps/kerning/images/spinners/favicon.png"
+        ]
+    },
+    {
+        "key": "loadingScreenMinDelay",
+        "roles": [
+            "development"
+        ],
+        "value": 0
+    },
+    {
+        "key": "loadingScreenMinDelay",
+        "roles": [
+            "production"
+        ],
+        "value": 1500
+    },
+    {
+        "key": "notificationsInterval",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": 900
+    },
+    {
+        "key": "notificationBadgeColor",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": "#f32e66"
+    },
+    {
+        "key": "podcastEpisodeTimestampOutputFormat",
+        "roles": [
+            "development",
+            "production"
+        ],
+        "value": {
+            "lastDay": "[Yesterday]",
+            "sameDay": "[Today]",
+            "lastWeek": "dddd",
+            "sameElse": "MMM. D"
+        }
+    },
+    {
+        "key": "remotes",
+        "roles": [
+            "development"
+        ],
+        "value": {
+            "copy": "/apps/kerning/files/copy.json",
+            "facts": "/apps/kerning/files/facts.json",
+            "podcasts": "/apps/kerning/files/podcasts.json",
+            "proxy": "https://local.getstencil.com/utils/proxy"
+        }
+    },
+    {
+        "key": "remotes",
+        "roles": [
+            "production"
+        ],
+        "value": {
+            "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/files/copy.json",
+            "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/files/facts.json",
+            "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/files/podcasts.json",
+            "proxy": "https://getstencil.com/utils/proxy"
+        }
+    },
+    {
+        "key": "templates",
+        "roles": [
+            "development"
+        ],
+        "value": [
+            "/core/templates/components/episode.html",
+            "/core/templates/components/nav.html",
+            "/core/templates/components/navItem.html",
+            "/core/templates/components/podcast.html",
+            "/core/templates/components/podcasts.html",
+            "/core/templates/components/tooltip.html",
+            "/apps/kerning/templates/modals/about.html"
+        ]
+    },
+    {
+        "key": "templates",
+        "roles": [
+            "production"
+        ],
+        "value": [
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/episode.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/nav.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/navItem.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/podcast.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/podcasts.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/core/templates/components/tooltip.html",
+            "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/templates/modals/about.html"
+        ]
+    }
+]
