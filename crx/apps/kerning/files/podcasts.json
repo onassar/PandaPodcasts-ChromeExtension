@@ -6,7 +6,7 @@
         "description": "A Middle East podcast network. Producing radio documentaries from the Middle East and its diaspora.",
         "show": true,
         "more": true,
-        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/kerning/images/podcasts/kc.jpg",
+        "thumb": "https://cdn.jsdelivr.net/gh/onassar/PandaPodcasts-ChromeExtension@stable/crx/apps/kerning/images/placeholders/thumb.jpg",
         "episodes": {
             "max": 12,
             "reverse": false

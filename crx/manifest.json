@@ -51,8 +51,8 @@
     "browser_action": {
         "default_title": "NYTimes Podcasts",
         "default_icon": {
-            "19": "apps/kerning/images/logos/favicon-white-19x19.png",
-            "38": "apps/kerning/images/logos/favicon-white-38x38.png"
+            "19": "apps/kerning/images/logos/favicon-blue-19x19.png",
+            "38": "apps/kerning/images/logos/favicon-blue-38x38.png"
         },
         "default_popup": "/apps/kerning/pages/popup.html"
     },
@@ -60,9 +60,9 @@
         "notifications"
     ],
     "icons": {
-        "16": "apps/kerning/images/logos/favicon-white-16x16.png",
-        "48": "apps/kerning/images/logos/favicon-white-48x48.png",
-        "128": "apps/kerning/images/logos/favicon-white-128x128.png"
+        "16": "apps/kerning/images/logos/favicon-blue-16x16.png",
+        "48": "apps/kerning/images/logos/favicon-blue-48x48.png",
+        "128": "apps/kerning/images/logos/favicon-blue-128x128.png"
     },
     "web_accessible_resources": [
         "/apps/kerning/files/*",
