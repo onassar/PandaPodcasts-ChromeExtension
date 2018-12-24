@@ -1,24 +1,17 @@
 @font-face {
-    font-family: 'cheltenham-normal-500';
-    src: url('/apps/kerning/fonts/cheltenham-normal-500.woff') format('woff');
+    font-family: 'Proxima Nova';
+    font-weight: 500;
+    src: url('/apps/kerning/fonts/Proxima-Nova-Regular.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'cheltenham-normal-700';
-    src: url('/apps/kerning/fonts/cheltenham-normal-700.woff') format('woff');
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    src: url('/apps/kerning/fonts/Proxima-Nova-Semibold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'nyt-franklin-500-normal';
-    src: url('/apps/kerning/fonts/nyt-franklin-500-normal.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'nyt-franklin-700-normal';
-    src: url('/apps/kerning/fonts/nyt-franklin-700-normal.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'nyt-cheltenham-sh-400-normal';
-    src: url('/apps/kerning/fonts/nyt-cheltenham-sh-400-normal.woff') format('woff');
+    font-family: 'Proxima Nova';
+    font-weight: 900;
+    src: url('/apps/kerning/fonts/Proxima-Nova-Bold.otf') format('opentype');
 }

@@ -24,7 +24,8 @@ html > body > header a.logo:hover {
     transform: scale(1.15) rotate(-2deg);
 }
 html > body > header div.social a:hover {
-    background-color: #221ea5;
+    /*background-color: #221ea5;*/
+    background-color: #1B2883;
 }
 
 /**
@@ -63,17 +64,24 @@ html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empt
     color: #1a1a1a;
 }
 html > body > div.content > div.podcasts > div.podcasts > div.podcast > div.empty > div.copy > p > a:hover {
-    color: #221ea5;
+    /*color: #221ea5;*/
+    color: #1B2883;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a {
-    font-family: 'nyt-franklin-700-normal';
-    background-color: #ebebeb;
-    border-color: #cccccc;
-    color: #333333;
+    font-family: 'Proxima Nova';
+    font-weight: 700;
+    border-color: #1B2883;
+    font-size: 13px;
+    color: #ffffff;
+    background-color: #1B2883;
+    margin: 0 auto 12px auto;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.more a:hover {
-    background-color: #e2e2e2;
-    color: #333333;
+    /*background-color: #e2e2e2;*/
+    background-color: #1B2883;
+    color: #ffffff;
+    /*color: #333333;*/
+    transform: scale(1.15) rotate(-2deg);
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a > div.media {
     border-radius: 3px;
@@ -82,7 +90,10 @@ html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div
     padding: 0 12px 0 12px;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.title {
-    font-family: 'cheltenham-normal-700';
+    font-family: 'Proxima Nova';
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div.episode a div.details div.description {
     display: block;
@@ -104,18 +115,25 @@ html > body > div.content div.podcasts div.podcasts div.podcast div.episodes div
  * 
  */
 html > body > footer > a {
-    font-family: 'nyt-franklin-700-normal';
+    font-family: 'Proxima Nova';
+    font-weight: 900;
 }
 html > body > footer > a:hover {
-    color: #221ea5;
+    /*color: #221ea5;*/
+    color: #1B2883;
 }
 
 /**
  * Modals
  * 
  */
+html > body > div.modal div.content h1 {
+    font-family: 'Proxima Nova';
+    font-weight: 900;
+}
 html > body > div.modal div.content h1 sup {
-    font-family: 'cheltenham-normal-500';
+    font-family: 'Proxima Nova';
+    font-weight: 500;
 }
 html > body > div.modal div.content p {
     font-family: Georgia;
@@ -125,5 +143,6 @@ html > body > div.modal div.content p a {
     color: #121212;
 }
 html > body > div.modal div.content p a:hover {
-    color: #221ea5;
+    color: #1B2883;
+    /*color: #221ea5;*/
 }
