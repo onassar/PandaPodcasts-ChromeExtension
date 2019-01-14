@@ -2,7 +2,7 @@
     "name": "Kerning Cultures",
     "short_name": "kerning",
     "description": "Keep up with all the Kerning Cultures episodes!",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "author": "Oliver Nassar",
     "manifest_version": 2,
     "background": {
