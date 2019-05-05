@@ -1,8 +1,8 @@
 # PandaPodcasts-ChromeExtension
 This repository contains the code for the following Extensions I've created:
+- [The New York Times Podcasts](https://chrome.google.com/webstore/detail/the-new-york-times-podcas/leimmikdkodgbaimglohhceidbooddma)
 - [Crooked Media](https://chrome.google.com/webstore/detail/pod-save-america-crooked/goeelkadlndllemolbmfjbaeaakipoai)
 - [Kerning Cultures](https://chrome.google.com/webstore/detail/the-new-york-times-podcas/leimmikdkodgbaimglohhceidbooddma)
-- [The New York Times Podcasts](https://chrome.google.com/webstore/detail/the-new-york-times-podcas/leimmikdkodgbaimglohhceidbooddma)
 
 ### Disclosure
 The Chrome Extensions are not affiliate or supported by the respective
