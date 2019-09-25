@@ -8,16 +8,16 @@
         "more": true,
         "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/images/podcasts/kc.jpg",
         "episodes": {
-            "max": 12,
+            "max": 16,
             "reverse": false
         },
         "timestampFormat": "MMM D, YYYY",
         "xPathExpressions": {
-            "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'intrinsic')]",
-            "timestamp": "tokenize(*//p/text(), '\\|')[last()]",
-            "description": "tokenize(*//p/text(), '\\|')[1]",
-            "title": "concat(substring(string(*//strong), 1, 1), lower-case(substring(string(*//strong), 2)))",
-            "link": "string(a/@href)",
+            "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'summary-item')]",
+            "timestamp": "string(*//time/text())",
+            "description": "string(*//p/text())",
+            "title": "concat(substring(string(*//a[contains(@class, 'summary-title-link')]/text()), 1, 1), lower-case(substring(string(*//a[contains(@class, 'summary-title-link')]/text()), 2)))",
+            "link": "string(*//a[contains(@class, 'summary-title-link')]/@href)",
             "thumb": "string(*//img/@data-src)"
         }
     }
