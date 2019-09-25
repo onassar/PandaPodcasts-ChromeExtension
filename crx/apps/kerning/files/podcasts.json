@@ -13,8 +13,8 @@
         },
         "timestampFormat": "MMM D, YYYY",
         "xPathExpressions": {
-            "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'summary-item')]",
-            "timestamp": "string(*//time/text())",
+            "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'summary-item-record-type-text')]",
+            "timestamp": "string((*//time/text())[2])",
             "description": "string(*//p/text())",
             "title": "concat(substring(string(*//a[contains(@class, 'summary-title-link')]/text()), 1, 1), lower-case(substring(string(*//a[contains(@class, 'summary-title-link')]/text()), 2)))",
             "link": "string(*//a[contains(@class, 'summary-title-link')]/@href)",

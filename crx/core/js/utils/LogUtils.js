@@ -45,14 +45,18 @@ window.LogUtils = (function() {
          * 
          * @access  public
          * @param   String msg
-         * @return  void
+         * @return  Boolean
          */
         log: function(msg) {
+            if (SettingsUtils.development() === false) {
+                return false;
+            }
             var timestamp = __getTimestamp(),
                 color = 'color:red;';
             msg = '%c' + (timestamp) + ' ' + (msg);
             console.log(msg, color);
             // console.trace();
+            return true;
         }
     };
 })();
