@@ -172,7 +172,7 @@
             "copy": "/apps/crooked/files/copy.json",
             "facts": "/apps/crooked/files/facts.json",
             "podcasts": "/apps/crooked/files/podcasts.json",
-            "proxy": "https://local.getstencil.com/utils/proxy",
+            "proxy": "https://local.416.io/utils/proxy",
             "sponsors": "/apps/crooked/files/sponsors.json"
         }
     },
@@ -185,7 +185,7 @@
             "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/copy.json",
             "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/facts.json",
             "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/podcasts.json",
-            "proxy": "https://getstencil.com/utils/proxy",
+            "proxy": "https://416.io/utils/proxy",
             "sponsors": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/sponsors.json"
         }
     },

@@ -161,7 +161,7 @@
             "copy": "/apps/kerning/files/copy.json",
             "facts": "/apps/kerning/files/facts.json",
             "podcasts": "/apps/kerning/files/podcasts.json",
-            "proxy": "https://local.getstencil.com/utils/proxy"
+            "proxy": "https://local.416.io/utils/proxy"
         }
     },
     {
@@ -173,7 +173,7 @@
             "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/files/copy.json",
             "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/files/facts.json",
             "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/kerning/files/podcasts.json",
-            "proxy": "https://getstencil.com/utils/proxy"
+            "proxy": "https://416.io/utils/proxy"
         }
     },
     {
