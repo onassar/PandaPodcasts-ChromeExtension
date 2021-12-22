@@ -52,6 +52,7 @@
         "episodes": {
             "reverse": false
         },
+        "timestampFormat": "YYYY\\/MM\\/DD",
         "xPathExpressions": {
             "episodes": "//section[contains(@id, 'stream-panel')]//ol//li[contains(@class, 'css-')]",
             "timestamp": "substring(*//a/@href, 2, 10)",
@@ -93,6 +94,7 @@
         "episodes": {
             "reverse": false
         },
+        "timestampFormat": "YYYY\\/MM\\/DD",
         "xPathExpressions": {
             "episodes": "//section[contains(@id, 'stream-panel')]//ol//li[contains(@class, 'css-')]",
             "timestamp": "substring(*//a/@href, 2, 10)",
@@ -113,6 +115,7 @@
         "episodes": {
             "reverse": false
         },
+        "timestampFormat": "YYYY\\/MM\\/DD",
         "xPathExpressions": {
             "episodes": "//section[contains(@id, 'stream-panel')]//ol//li[contains(@class, 'css-')]",
             "timestamp": "substring(*//a/@href, 2, 10)",
