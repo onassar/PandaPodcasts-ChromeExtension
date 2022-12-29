@@ -150,8 +150,8 @@ window.DependencyLoader.push(['BaseModel'], function() {
          * 
          * @access  protected
          * @param   jQuery $element
-         * @param   String key
          * @param   PodcastAccessor podcast
+         * @param   String key
          * @return  mixed
          */
         _runXPathExpression: function($element, podcast, key) {

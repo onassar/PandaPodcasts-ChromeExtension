@@ -93,14 +93,6 @@
         "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/tw.png",
         "episodes": {
             "reverse": true
-        },
-        "xPathExpressions": {
-            "episodes": "//div[contains(@class, 'wd-episode publish')]",
-            "timestamp": "string(*//span[contains(@class, 'desktop-strapline')]/text())",
-            "description": "string(*//p/text())",
-            "title": "string-join((*//span[contains(@class, 'wd-title-num')]/text(), *//span[contains(@class, 'wd-title-text')]/text()), ':')",
-            "link": "string(a/@href)",
-            "thumb": "string(*//img/@src)"
         }
     },
     {
@@ -108,7 +100,7 @@
         "name": "Majority54",
         "link": "https://crooked.com/podcast-series/majority-54/",
         "description": "Jason Kander is an army veteran from Kansas City, Missouri and the first millennial elected to statewide office in the United States.",
-        "show": true,
+        "show": false,
         "more": true,
         "thumb": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/images/podcasts/m.png",
         "episodes": {
