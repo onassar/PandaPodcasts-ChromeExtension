@@ -2,7 +2,7 @@
     {
         "key": "kc",
         "name": "Kerning Cultures",
-        "link": "https://kerningcultures.com/kerningcultures",
+        "link": "https://kerningcultures.com/kerningcultures/",
         "description": "A Middle East podcast network. Producing radio documentaries from the Middle East and its diaspora.",
         "show": true,
         "more": true,
@@ -13,12 +13,12 @@
         },
         "timestampFormat": "MMM D, YYYY",
         "xPathExpressions": {
-            "episodes": "//div[contains(@class, 'row sqs-row')][position()>1]//div[contains(@class, 'summary-item-record-type-text')]",
-            "timestamp": "string((*//time/text())[2])",
+            "episodes": "//div[contains(@class, 'row-slider')]//div[contains(@class, 'post-item')]",
+            "timestamp": "string(*//div[contains(@class, 'post-meta')]/text())",
             "description": "string(*//p/text())",
-            "title": "concat(substring(string(*//a[contains(@class, 'summary-title-link')]/text()), 1, 1), lower-case(substring(string(*//a[contains(@class, 'summary-title-link')]/text()), 2)))",
-            "link": "string(*//a[contains(@class, 'summary-title-link')]/@href)",
-            "thumb": "string(*//img/@data-src)"
+            "title": "string(*//h5/text())",
+            "link": "string(*//a[contains(@class, 'plain')]/@href)",
+            "thumb": "string(*//img/@src)"
         }
     }
 ]

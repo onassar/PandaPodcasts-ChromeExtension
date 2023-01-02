@@ -171,8 +171,10 @@ window.DependencyLoader.push(['BaseAccessor', 'PodcastModel'], function() {
                         _this._episodes.reverse();
                     }
                     if (_this._data.episodes.max !== undefined) {
-                        var max = _this._data.episodes.max;
-                        _this._episodes.trim(max);
+                        if (episodes.length() > max) {
+                            var max = _this._data.episodes.max;
+                            _this._episodes.trim(max);
+                        }
                     }
                     return episodes;
                 }).catch(function(err) {
