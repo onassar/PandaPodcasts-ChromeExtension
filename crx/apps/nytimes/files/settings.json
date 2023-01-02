@@ -161,7 +161,7 @@
             "copy": "/apps/nytimes/files/copy.json",
             "facts": "/apps/nytimes/files/facts.json",
             "podcasts": "/apps/nytimes/files/podcasts.json",
-            "proxy": "https://local.getstencil.com/utils/proxy"
+            "proxy": "https://local.416.io/utils/proxy"
         }
     },
     {
@@ -173,7 +173,7 @@
             "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/nytimes/files/copy.json",
             "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/nytimes/files/facts.json",
             "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/nytimes/files/podcasts.json",
-            "proxy": "https://getstencil.com/utils/proxy"
+            "proxy": "https://416.io/utils/proxy"
         }
     },
     {

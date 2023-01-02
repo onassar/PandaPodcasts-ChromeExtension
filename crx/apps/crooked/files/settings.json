@@ -38,12 +38,12 @@
             "production"
         ],
         "value": {
-            "episodes": "//div[contains(@class, 'row hover-container')]",
-            "timestamp": "string(*//span[contains(@class, 'desktop-strapline')]/text())",
+            "episodes": "//div[@class = 'episode']",
+            "timestamp": "string(div[contains(@class, 'episode__date')]/text())",
             "description": "string(*//p/text())",
-            "title": "string(*//h3[contains(@class, 'red-on-hover')]/text())",
-            "link": "string(*//a[contains(@class, 'click-image')]/@href)",
-            "thumb": "string(*//div[contains(@class, 'zoom-image')]/@data-background-image)"
+            "title": "string(*//div[contains(@class, 'episode__title')]/text())",
+            "link": "string(a[contains(@class, 'episode__mask')]/@href)",
+            "thumb": "string(*//img[contains(@class, 'lazy__img')]/@data-src)"
         }
     },
     {
@@ -172,7 +172,7 @@
             "copy": "/apps/crooked/files/copy.json",
             "facts": "/apps/crooked/files/facts.json",
             "podcasts": "/apps/crooked/files/podcasts.json",
-            "proxy": "https://local.getstencil.com/utils/proxy",
+            "proxy": "https://local.416.io/utils/proxy",
             "sponsors": "/apps/crooked/files/sponsors.json"
         }
     },
@@ -185,7 +185,7 @@
             "copy": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/copy.json",
             "facts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/facts.json",
             "podcasts": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/podcasts.json",
-            "proxy": "https://getstencil.com/utils/proxy",
+            "proxy": "https://416.io/utils/proxy",
             "sponsors": "https://raw.githubusercontent.com/onassar/PandaPodcasts-ChromeExtension/stable/crx/apps/crooked/files/sponsors.json"
         }
     },
