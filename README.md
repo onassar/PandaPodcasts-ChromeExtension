@@ -32,7 +32,7 @@ If you run into any bugs, please follow one of the following steps:
 
 ### Roadmap
 The roadmap is (currently) defined here:  
-[https://github.com/onassar/PandaPodcasts-ChromeExtension/projects](https://github.com/onassar/PandaPodcasts-ChromeExtension/projects)
+[https://github.com/onassar/PandaPodcasts-ChromeExtension/projects?type=classic](https://github.com/onassar/PandaPodcasts-ChromeExtension/projects?type=classic)
 
 ### Contributions
 Feel free to submit a Pull Request (PR) if you have any fixes or contributions
