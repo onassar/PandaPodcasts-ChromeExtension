@@ -49,7 +49,7 @@
         ]
     },
     "browser_action": {
-        "default_title": "NYTimes Podcasts",
+        "default_title": "Kerning Cultures",
         "default_icon": {
             "19": "apps/kerning/images/logos/favicon/v2/favicon-19x19.png",
             "38": "apps/kerning/images/logos/favicon/v2/favicon-38x38.png"
