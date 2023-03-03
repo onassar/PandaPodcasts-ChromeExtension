@@ -49,7 +49,7 @@
         ]
     },
     "browser_action": {
-        "default_title": "NYTimes Podcasts",
+        "default_title": "The New York Times Podcasts",
         "default_icon": {
             "19": "apps/nytimes/images/logos/favicon-white-19x19.png",
             "38": "apps/nytimes/images/logos/favicon-white-38x38.png"
