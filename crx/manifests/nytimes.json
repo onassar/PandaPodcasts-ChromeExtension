@@ -10,7 +10,7 @@
         "scripts": [
             "/core/vendors/external/JavaScript-MD5/v2.10.0/js/md5.min.js",
             "/core/vendors/external/jquery/v3.3.1/jquery-3.3.1.min.js",
-            "/core/vendors/external/jquery-xpath/v0.3.1/jquery.xpath.min.js",
+            "/core/vendors/external/jquery-xpath/v0.3.1/jquery.xpath.js",
             "/core/vendors/external/moment/v2.10.6/moment.js",
             "/core/vendors/external/extend/v0.0.0/extend.js",
             "/core/vendors/internal/DependencyLoader.js",
