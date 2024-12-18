@@ -149,6 +149,69 @@ window.DataUtils = (function() {
         },
 
         /**
+         * _test
+         * 
+         * @see     https://chatgpt.com/c/67631c54-d8e4-800f-a895-332fc81b8223
+         * @access  protected
+         * @param   String markup
+         * @param   Object data
+         * @return  String
+         */
+        _test: function(markup, data) {
+
+function renderSafeTemplate(templateString, data) {
+    return templateString.replace(/<%=(.*?)%>/g, (match, expression) => {
+        // Handle escaped expressions
+        try {
+            const value = resolveExpression(expression, data);
+            return escapeHTML(value);
+        } catch {
+            return '';
+        }
+    }).replace(/<%([\s\S]+?)%>/g, (match, codeBlock) => {
+        // Handle raw logic blocks
+        return executeBlock(codeBlock, data);
+    });
+}
+
+function resolveExpression(expression, data) {
+    const keys = Object.keys(data);
+    const values = Object.values(data);
+
+    // Create a function to resolve the expression without eval
+    return new Function(...keys, `return (${expression.trim()});`)(...values);
+}
+
+function executeBlock(codeBlock, data) {
+    const keys = Object.keys(data);
+    const values = Object.values(data);
+
+    let output = '';
+    const capture = (str) => { output += str; };
+
+    const safeCode = `
+        (function() {
+            const print = capture;
+            ${codeBlock.trim()}
+        })();
+    `;
+
+    new Function(...keys, 'capture', safeCode)(...values, capture);
+    return output;
+}
+
+function escapeHTML(str) {
+    return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
+return renderSafeTemplate(markup, data);
+        },
+
+        /**
          * render
          * 
          * @see     https://stackoverflow.com/questions/5653207/remove-html-comments-with-regex-in-javascript
@@ -162,9 +225,10 @@ window.DataUtils = (function() {
             data = DataUtils.getDefaultValue(data, {});
             var $script = $('script[name="' + (viewName) + '"]'),
                 markup = StringUtils.emojis($script.html()),
-                compiler = _.template(markup),
-                rendered = compiler(data).trim(),
-                parsed = jQuery.parseHTML(rendered),
+                // compiler = _.template(markup),
+                // rendered = compiler(data).trim(),
+                // parsed = jQuery.parseHTML(rendered),
+                parsed = this._test(markup, data),
                 $element = $(parsed);
             return $element;
         },
